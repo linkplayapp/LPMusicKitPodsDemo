@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewTuneInSearchController">
+            <connections>
+                <outlet property="backImage" destination="Yf4-3q-qDV" id="LxE-LA-vyh"/>
+                <outlet property="searchBarBack" destination="Ztt-aj-dQ2" id="Wom-Pj-JCm"/>
+                <outlet property="statuLab" destination="VTe-18-AMC" id="k87-rX-Os5"/>
+                <outlet property="tableView" destination="tLA-EM-htr" id="j3J-Qo-sse"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yf4-3q-qDV">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTe-18-AMC">
+                    <rect key="frame" x="0.0" y="311.5" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="LCT-qM-Tsb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ztt-aj-dQ2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="3Qn-2G-LtL"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="tLA-EM-htr">
+                    <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ilv-7g-xd7"/>
+                        <outlet property="delegate" destination="-1" id="NXB-4F-h29"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Yf4-3q-qDV" secondAttribute="trailing" id="9qf-qM-x6I"/>
+                <constraint firstAttribute="bottom" secondItem="Yf4-3q-qDV" secondAttribute="bottom" id="Ahk-vD-GKI"/>
+                <constraint firstAttribute="trailing" secondItem="VTe-18-AMC" secondAttribute="trailing" id="HSm-5B-zqf"/>
+                <constraint firstItem="tLA-EM-htr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NLF-25-Gcy"/>
+                <constraint firstItem="tLA-EM-htr" firstAttribute="top" secondItem="Ztt-aj-dQ2" secondAttribute="top" constant="68" id="Pku-fo-by9"/>
+                <constraint firstItem="VTe-18-AMC" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RSi-73-bmv"/>
+                <constraint firstItem="VTe-18-AMC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bUI-ro-WIZ"/>
+                <constraint firstItem="Yf4-3q-qDV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cMd-sT-WpS"/>
+                <constraint firstItem="Yf4-3q-qDV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ciC-3S-4Jq"/>
+                <constraint firstAttribute="trailing" secondItem="tLA-EM-htr" secondAttribute="trailing" id="dBp-ku-blg"/>
+                <constraint firstItem="Ztt-aj-dQ2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="i3I-T6-yYE"/>
+                <constraint firstItem="Ztt-aj-dQ2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kLY-z6-tDz"/>
+                <constraint firstAttribute="trailing" secondItem="Ztt-aj-dQ2" secondAttribute="trailing" id="l2H-Yc-ATx"/>
+                <constraint firstAttribute="bottom" secondItem="tLA-EM-htr" secondAttribute="bottom" id="zzw-Yf-9cT"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="93.599999999999994" y="108.39580209895054"/>
+        </view>
+    </objects>
+</document>

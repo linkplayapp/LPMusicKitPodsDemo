@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LPWiFiSetupViewController">
+            <connections>
+                <outlet property="hintLabel" destination="ewC-nG-z5o" id="PUn-ri-RRM"/>
+                <outlet property="statusLabel" destination="IEP-SF-IOl" id="YUo-5S-06G"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewC-nG-z5o">
+                    <rect key="frame" x="20" y="100" width="374" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEP-SF-IOl">
+                    <rect key="frame" x="20" y="220.5" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ewC-nG-z5o" secondAttribute="trailing" constant="20" id="4Hw-xr-CyK"/>
+                <constraint firstItem="ewC-nG-z5o" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6XM-V7-dP2"/>
+                <constraint firstItem="IEP-SF-IOl" firstAttribute="top" secondItem="ewC-nG-z5o" secondAttribute="bottom" constant="100" id="GDx-fY-HFY"/>
+                <constraint firstAttribute="trailing" secondItem="IEP-SF-IOl" secondAttribute="trailing" constant="20" id="eTK-Qs-xQ2"/>
+                <constraint firstItem="IEP-SF-IOl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="rnL-Ft-Pt0"/>
+                <constraint firstItem="ewC-nG-z5o" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="wwY-DB-pTi"/>
+            </constraints>
+            <point key="canvasLocation" x="-161" y="117"/>
+        </view>
+    </objects>
+</document>

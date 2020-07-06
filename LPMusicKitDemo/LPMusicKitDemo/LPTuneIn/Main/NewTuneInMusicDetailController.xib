@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewTuneInMusicDetailController">
+            <connections>
+                <outlet property="backImage" destination="jw2-3E-Xgc" id="aYW-yO-CAX"/>
+                <outlet property="tableView" destination="5Sr-v7-DMR" id="TBR-Dl-b6B"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jw2-3E-Xgc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="5Sr-v7-DMR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="jZQ-Z5-qOl"/>
+                        <outlet property="delegate" destination="-1" id="WmK-s3-L3y"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5Sr-v7-DMR" secondAttribute="bottom" id="1au-La-MEH"/>
+                <constraint firstItem="jw2-3E-Xgc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Fja-2F-1L1"/>
+                <constraint firstAttribute="trailing" secondItem="jw2-3E-Xgc" secondAttribute="trailing" id="U0d-uS-qMC"/>
+                <constraint firstItem="5Sr-v7-DMR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Y7W-Um-SgJ"/>
+                <constraint firstAttribute="trailing" secondItem="5Sr-v7-DMR" secondAttribute="trailing" id="k6e-JR-BjG"/>
+                <constraint firstAttribute="bottom" secondItem="jw2-3E-Xgc" secondAttribute="bottom" id="lUp-CH-wBH"/>
+                <constraint firstItem="5Sr-v7-DMR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wBT-0m-Rgq"/>
+                <constraint firstItem="jw2-3E-Xgc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xfc-LT-b6J"/>
+            </constraints>
+            <point key="canvasLocation" x="-460" y="35"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  LPMDPKit
+
+  Created by lyr on 2020/1/15.
+  Copyright © 2020 Linkplay-jack. All rights reserved.
+*/
+// primemusic
+"primemusic_Unblock"="制御を解除";
+"primemusic_Unexpected_error"="予期せぬエラーが発生しました。";
+"primemusic_See_All"="すべて見る";
+"primemusic_Sign_Out"="サインアウト";
+"primemusic_clear_recent_searches"="最近の検索を消去";
+"primemusic_Start_your_30_day_free_trial"="Start your 30-day free trial";
+"primemusic_Block_Explicit_Songs"="不適切な歌詞を含む楽曲の再生を制御";
+"primemusic__nExplicit_songs__n_are_blocked_n"="不適切な歌詞を含む楽曲の再生を制御中";
+"primemusic_Sorry__there_must_be_something_wrong__Please_sign_in_again_"="申し訳ありません。エラーが発生しました。再度サインインしてください。";
+"primemusic_Amazon_Music"="Amazon Music";
+"primemusic_The_connection_has_timed_out_"="接続がタイムアウトとなりましたので、もう一度お試しください。問題が解決しない場合はカスタマーサービスにご連絡ください。";
+"primemusic_Loading____"="読み込み中…";
+"primemusic_No_thanks"="No thanks";
+"primemusic_Unblock_Explicit_Songs"="不適切な歌詞を含む楽曲の再生制御を解除";
+"primemusic__nExplicit_songs__n_are_unblocked_n"="不適切な歌詞を含む楽曲への制御を解除済み";
+"primemusic_Please_refresh_the_page_to_try_again"="リロードしてください。またはオフライン再生モードをオンにしてください。";
+"primemusic_My_Music"="マイミュージック";
+"primemusic_See_More"="もっと見る";
+"primemusic_Play_All"="すべてをする";
+"primemusic_Are_you_sure_you_want_to_quit_"="本当にやめる気？";
+"primemusic_Songs_with_explicit_language_will_be_blocked_on_this_device_"="不適切な歌詞を含む楽曲の再生を制御";
+"primemusic_Loading_error__Please_try_again_later_"="ロード中エラーが発生しました.再度お試しください.";
+"primemusic_Fail"="失敗";
+"primemusic_Settings"="設定";
+"primemusic_Search"="検索";
+"primemusic_Shuffle_All"="すべてをシャッフルする";
+"primemusic_logout"="ログアウト";
+"primemusic_Songs_with_explicit_language_are_blocked_on_this_device__Would_you_like_to_unblock_"="この端末では不適切な歌詞を含む楽曲の再生は制御されています.制御を解除しますか？";
+"primemusic_We_re_sorry__this_content_is_no_longer_available"="申し訳ございません.このコンテンツは現在利用できません.";
+"primemusic_NO_Result"="検索条件に一致する結果がありませんでした。";
+"primemusic_Cancel"="キャンセル";
+"primemusic_Search_Amazon_Music"="Amazon Musicを検索";
+"primemusic_UNLIMITED_ACCESS_TO_50_MILLION_SONGS"="UNLIMITED ACCESS TO 50 MILLION SONGS";
+"primemusic_Block"="制御";
+"primemusic_Available_to_Prime_and_Amazon_Music_Unlimited_Subscribers"="Prime MusicおよびAmazon Music Unlimitedでご利用いただけます.";
+"primemusic_Logging_out___"="ログアウト中...";
+"primemusic_Dismiss"="閉じる";
+"primemusic_Amazon_Login"="AMAZON LOGIN";
+"primemusic__7_99_month_for_Prime_members"="$7.99/month for Prime members";
+"primemusic_Refresh"="更新する";

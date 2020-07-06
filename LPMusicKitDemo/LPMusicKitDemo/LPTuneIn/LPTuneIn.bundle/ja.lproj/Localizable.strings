@@ -1,0 +1,43 @@
+/*
+ Custom.strings Created by yining.xu on 20190911. Copyright (c) 2014年 wiimu. All rights reserved.
+ */
+
+// newtuneIn
+"newtuneIn_Premium_opt_in_failed"="";
+"newtuneIn_Premium"="";
+"newtuneIn_OK"="オーケー";
+"newtuneIn_Fail"="フェイル";
+"newtuneIn_Now_can__t_play_please_choose_others"="今は遊べません、他を選んでください";
+"newtuneIn_Setting"="セッティング";
+"newtuneIn_Home"="ホームページ";
+"newtuneIn_Browse"="ブラウズ";
+"newtuneIn_This_content_can__t_play"="このコンテンツは再生できません";
+"newtuneIn_Favorites_is_empty"="お気に入りは空です";
+"newtuneIn_Removed_Favorite_Successfully"="お気に入りを削除しました";
+"newtuneIn_Live"="";
+"newtuneIn_Removed_Favorite_Fail"="削除されたお気に入りの失敗";
+"newtuneIn_Favorites_Fail"="お気に入りが失敗する";
+"newtuneIn_Favorites_Success"="お気に入りの成功";
+"newtuneIn_Unfavorite"="好きじゃない";
+"newtuneIn_No_results"="結果がありません";
+"newtuneIn_Less"="もっと少なく";
+"newtuneIn_Favorite"="コレクション";
+"newtuneIn_This_show_will_be_available_later__Please_come_back_then_"="このショーは後で利用可能になります。 戻って来てください。";
+"newtuneIn_This_content_cannot_be_played_"="このコンテンツは再生できません。";
+"newtuneIn_more"="もっと";
+"newtuneIn_Location"="ロケーション";
+"newtuneIn_Cancel"="キャンセル";
+"newtuneIn_Login_successful"="ログイン成功";
+"newtuneIn_Login_failed"="ログインに失敗しました";
+"newtuneIn_Would_you_like_to_log_out_"="ログアウトしますか？";
+"newtuneIn_Log_out_fail__Please_try_again_"="ログアウトに失敗しました。もう一度お試しください。";
+"newtuneIn_login"="ログインする";
+"newtuneIn_logout"="ログアウト";
+"newtuneIn_Time_out"="タイムアウト";
+"newtuneIn_Prompt"="促す";
+"newtuneIn_TuneIn_account_has_been_changed"="TuneInアカウントが変更されました";
+"newtuneIn_TuneIn_account_has_logout"="TuneInアカウントにログアウトがあります";
+"newtuneIn_Favorites"="お気に入り";
+"newtuneIn_Search_for_stations__podcasts__or_events"="ステーション、ポッドキャスト、またはイベントを検索する";
+"newtuneIn_No_Results_found_for"="の結果が見つかりません";
+"newtuneIn_Search"="調べる";

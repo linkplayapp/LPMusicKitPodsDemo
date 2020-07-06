@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LPLocalMusicViewController">
+            <connections>
+                <outlet property="segmentedControl" destination="dX5-Il-DR7" id="Vcg-q5-hfP"/>
+                <outlet property="tableView" destination="gGl-qB-geT" id="cLM-v8-yaR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gGl-qB-geT">
+                    <rect key="frame" x="0.0" y="149" width="414" height="747"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="WYu-ZM-3Ru"/>
+                        <outlet property="delegate" destination="-1" id="u9f-eF-jkr"/>
+                    </connections>
+                </tableView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dX5-Il-DR7">
+                    <rect key="frame" x="57" y="100" width="300" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Hz2-Ho-gwc"/>
+                        <constraint firstAttribute="width" constant="300" id="XH0-0c-m4X"/>
+                    </constraints>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                        <segment title=""/>
+                        <segment title=""/>
+                    </segments>
+                    <color key="selectedSegmentTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="segmentedControlPress:" destination="-1" eventType="valueChanged" id="qzc-RQ-wM3"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gGl-qB-geT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cg3-eA-94Z"/>
+                <constraint firstAttribute="bottom" secondItem="gGl-qB-geT" secondAttribute="bottom" id="Gzp-Fy-rrK"/>
+                <constraint firstItem="dX5-Il-DR7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UNi-gG-Qmx"/>
+                <constraint firstItem="dX5-Il-DR7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="dFA-2Y-5mc"/>
+                <constraint firstAttribute="trailing" secondItem="gGl-qB-geT" secondAttribute="trailing" id="sHd-qc-rrk"/>
+                <constraint firstItem="gGl-qB-geT" firstAttribute="top" secondItem="dX5-Il-DR7" secondAttribute="bottom" constant="5" id="vCQ-06-3bl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="JDg-j3-08A"/>
+            <point key="canvasLocation" x="-130.43478260869566" y="109.82142857142857"/>
+        </view>
+    </objects>
+</document>

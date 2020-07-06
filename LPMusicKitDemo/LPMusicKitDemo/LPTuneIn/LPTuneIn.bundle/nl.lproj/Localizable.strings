@@ -1,0 +1,43 @@
+/*
+ Custom.strings Created by yining.xu on 20180830. Copyright (c) 2014年 wiimu. All rights reserved.
+ */
+
+// newtuneIn
+"newtuneIn_Premium_opt_in_failed"="";
+"newtuneIn_Premium"="";
+"newtuneIn_Search"="";
+"newtuneIn_Search_for_stations__podcasts__or_events"="";
+"newtuneIn_No_Results_found_for"="";
+"newtuneIn_OK"="OK";
+"newtuneIn_Fail"="mislukken";
+"newtuneIn_Now_can__t_play_please_choose_others"="Nu kan niet spelen, kies anderen";
+"newtuneIn_Setting"="omgeving";
+"newtuneIn_Home"="Startpagina";
+"newtuneIn_Browse"="Blader";
+"newtuneIn_This_content_can__t_play"="Deze inhoud kan niet worden afgespeeld";
+"newtuneIn_Favorites_is_empty"="Favorieten is leeg";
+"newtuneIn_Removed_Favorite_Successfully"="Favoriet succesvol verwijderd";
+"newtuneIn_Live"="";
+"newtuneIn_Removed_Favorite_Fail"="Favoriet verwijderd mislukt";
+"newtuneIn_Favorites_Fail"="Favorieten mislukken";
+"newtuneIn_Favorites_Success"="Favorieten succes";
+"newtuneIn_Unfavorite"="Niet favoriet";
+"newtuneIn_No_results"="Geen resultaten";
+"newtuneIn_Less"="Minder";
+"newtuneIn_Favorite"="verzamelen";
+"newtuneIn_This_show_will_be_available_later__Please_come_back_then_"="Deze show zal later beschikbaar zijn. Kom alsjeblieft terug.";
+"newtuneIn_This_content_cannot_be_played_"="Deze inhoud kan niet worden afgespeeld.";
+"newtuneIn_more"="meer";
+"newtuneIn_Location"="Plaats";
+"newtuneIn_Cancel"="annuleren";
+"newtuneIn_Login_successful"="Succesvol ingelogd";
+"newtuneIn_Login_failed"="Aanmelden mislukt";
+"newtuneIn_Would_you_like_to_log_out_"="Wilt u uitloggen?";
+"newtuneIn_Log_out_fail__Please_try_again_"="Uitloggen mislukt, probeer het opnieuw.";
+"newtuneIn_login"="login";
+"newtuneIn_logout"="uitloggen";
+"newtuneIn_Time_out"="Time-out";
+"newtuneIn_Prompt"="prompt";
+"newtuneIn_TuneIn_account_has_been_changed"="TuneIn-account is gewijzigd";
+"newtuneIn_TuneIn_account_has_logout"="TuneIn-account heeft uitloggen";
+"newtuneIn_Favorites"="favorieten";

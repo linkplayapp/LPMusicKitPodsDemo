@@ -1,0 +1,42 @@
+/*
+ Custom.strings Created by yining.xu on 20181012. Copyright (c) 2014年 wiimu. All rights reserved.
+ */
+// newtuneIn
+"newtuneIn_Premium_opt_in_failed"="";
+"newtuneIn_Premium"="";
+"newtuneIn_OK"="okay";
+"newtuneIn_Fail"="Scheitern";
+"newtuneIn_Now_can__t_play_please_choose_others"="Jetzt kann nicht spielen, bitte wählen Sie andere";
+"newtuneIn_Setting"="Rahmen";
+"newtuneIn_Home"="Startseite";
+"newtuneIn_Browse"="Durchsuche";
+"newtuneIn_This_content_can__t_play"="Ce contenu ne peut pas être lu...";
+"newtuneIn_Favorites_is_empty"="Favoriten ist leer";
+"newtuneIn_Removed_Favorite_Successfully"="Favorit erfolgreich entfernt";
+"newtuneIn_Live"="";
+"newtuneIn_Removed_Favorite_Fail"="Favoritenfehler entfernt";
+"newtuneIn_Favorites_Fail"="Favoriten fehlgeschlagen";
+"newtuneIn_Favorites_Success"="Favoriten Erfolg";
+"newtuneIn_Unfavorite"="Ungünstig";
+"newtuneIn_No_results"="Keine Ergebnisse";
+"newtuneIn_Less"="Geringer, weniger";
+"newtuneIn_Favorite"="Sammlung";
+"newtuneIn_This_show_will_be_available_later__Please_come_back_then_"="Diese Show wird später verfügbar sein. Bitte komm dann zurück.";
+"newtuneIn_This_content_cannot_be_played_"="Dieser Inhalt kann nicht abgespielt werden.";
+"newtuneIn_more"="Mehr";
+"newtuneIn_Location"="Lage";
+"newtuneIn_Cancel"="Stornieren";
+"newtuneIn_Login_successful"="Anmeldung erfolgreich";
+"newtuneIn_Login_failed"="Login fehlgeschlagen";
+"newtuneIn_Would_you_like_to_log_out_"="Möchten Sie sich ausloggen?";
+"newtuneIn_Log_out_fail__Please_try_again_"="Abmelden fehlgeschlagen. Bitte versuchen Sie es erneut.";
+"newtuneIn_login"="Anmeldung";
+"newtuneIn_logout"="Abmelden";
+"newtuneIn_Time_out"="Auszeit";
+"newtuneIn_Prompt"="Prompt";
+"newtuneIn_TuneIn_account_has_been_changed"="TuneIn-Konto wurde geändert";
+"newtuneIn_TuneIn_account_has_logout"="TuneIn-Konto hat Abmeldung";
+"newtuneIn_Favorites"="Favoriten";
+"newtuneIn_Search_for_stations__podcasts__or_events"="Suchen Sie nach Sendern, Podcasts oder Ereignissen";
+"newtuneIn_No_Results_found_for"="Keine Ergebnisse gefunden für";
+"newtuneIn_Search"="Suche";

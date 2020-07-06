@@ -1,0 +1,31 @@
+//
+//  LPMusicKitDemo.h
+//  LPMusicKitDemo
+//
+//  Created by sunyu on 2020/6/19.
+//  Copyright © 2020 sunyu. All rights reserved.
+//
+
+#ifndef LPMusicKitDemo_h
+#define LPMusicKitDemo_h
+#import "BasicViewController.h"
+#import "GlobalUI.h"
+#import <LPMDPKit/LPMDPKit.h>
+#import <LPMusicKit/LPMusicKit.h>
+
+//TuneIn
+#import <LPMSTuneIn/LPMSTuneIn.h>
+#import "NewTuneInMethod.h"
+#import "NewTuneInMusicManager.h"
+#define NEWTUNEIN_PRESENT_OPEN 1 //打开预置和闹钟
+
+//AmazonMusic
+#import <LPMSAmazonMusic/LPMSAmazonMusic.h>
+#import "AmazonMusicBoxManager.h"
+#import "AmazonMusicMethod.h"
+
+
+#import "MBProgressHUD.h"
+#import "UIView+Toast.h"
+
+#endif /* LPMusicKitDemo_h */
