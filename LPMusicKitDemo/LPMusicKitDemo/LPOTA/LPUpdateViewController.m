@@ -41,12 +41,16 @@
     ota.delegate = self;
     NSLog(@"Firmware version = %@", device.deviceStatus.firmware);
     NSLog(@"Firmware  New version = %@", device.deviceStatus.firmwareNewVersion);
-    
+    BOOL isHaveInternet = [device.deviceInfo getDeviceInternetStatus];
     self.OTAResultLabel.text = @"";
-    if (isHaveOTA) {
-        self.OTAStatusLabel.text = @"Prepare the OTA";
+    if (isHaveInternet) {
+        if (isHaveOTA) {
+            self.OTAStatusLabel.text = @"Prepare the OTA";
+        }else {
+            self.OTAStatusLabel.text = @"It's the latest version";
+        }
     }else {
-        self.OTAStatusLabel.text = @"It's the latest version";
+        NSLog(@"The current device has no network and cannot be upgraded");
     }
 }
 - (IBAction)startOTAButtonPress:(id)sender {
