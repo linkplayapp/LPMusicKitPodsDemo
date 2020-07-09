@@ -41,7 +41,7 @@
     ota.delegate = self;
     NSLog(@"Firmware version = %@", device.deviceStatus.firmware);
     NSLog(@"Firmware  New version = %@", device.deviceStatus.firmwareNewVersion);
-    BOOL isHaveInternet = [device.deviceInfo getDeviceInternetStatus];
+    BOOL isHaveInternet = device.deviceStatus.isHaveInternet;
     self.OTAResultLabel.text = @"";
     if (isHaveInternet) {
         if (isHaveOTA) {
@@ -72,20 +72,22 @@
         LPDevice *device = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
         LPDeviceOTA *ota = [device getOTA];
 
-        [ota firmwareStartUpdate:obj completionHandler:^(BOOL isSuccess, BOOL isTimeout) {
-            if (isSuccess) {
-                NSLog(@"Update successed");
-                self.OTAResultLabel.text = @"Update successed";
-            }else {
-                if (isTimeout) {
-                    NSLog(@"Timeout");
-                    self.OTAResultLabel.text = @"Timeout";
+        if (device.deviceStatus.isHaveInternet) {
+            [ota firmwareStartUpdate:obj completionHandler:^(BOOL isSuccess, BOOL isTimeout) {
+                if (isSuccess) {
+                    NSLog(@"Update successed");
+                    self.OTAResultLabel.text = @"Update successed";
                 }else {
-                    NSLog(@"Upgrade failed");
-                    self.OTAResultLabel.text = @"Upgrade failed";
+                    if (isTimeout) {
+                        NSLog(@"Timeout");
+                        self.OTAResultLabel.text = @"Timeout";
+                    }else {
+                        NSLog(@"Upgrade failed");
+                        self.OTAResultLabel.text = @"Upgrade failed";
+                    }
                 }
-            }
-        }];
+            }];
+        }
     }
 }
 
