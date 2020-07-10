@@ -13,17 +13,8 @@
 #import <LPMDPKit/LPMDPKit.h>
 #import <LPMusicKit/LPMusicKit.h>
 
-//TuneIn
-#import <LPMSTuneIn/LPMSTuneIn.h>
-#import "NewTuneInMethod.h"
-#import "NewTuneInMusicManager.h"
+
 #define NEWTUNEIN_PRESENT_OPEN 1 //打开预置和闹钟
-
-//AmazonMusic
-#import <LPMSAmazonMusic/LPMSAmazonMusic.h>
-#import "AmazonMusicBoxManager.h"
-#import "AmazonMusicMethod.h"
-
 
 #import "MBProgressHUD.h"
 #import "UIView+Toast.h"

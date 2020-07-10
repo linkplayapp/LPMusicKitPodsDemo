@@ -15,7 +15,7 @@
 #import <LPMDPKit/LPPlayItem.h>
 #import <LPMDPKit/LPPlayHeader.h>
 #import <LPMDPKit/LPPlayMusicList.h>
-#import "LPDefaultPlayViewController.h"
+#import "LPPlayViewController.h"
 
 @interface LPLocalMusicViewController ()
 
@@ -118,8 +118,10 @@
         [self.devicePlayer playAudioWithMusicDictionary:info completionHandler:^(BOOL isSuccess, NSString * _Nullable result) {
             NSLog(@"");
             if (isSuccess) {
-                LPDefaultPlayViewController *controller = [[LPDefaultPlayViewController alloc] init];
+                LPDevice *device = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
+                LPPlayViewController *controller = [[LPPlayViewController alloc] init];
                 controller.deviceId = self.uuid;
+                controller.source = device.mediaInfo.trackSource;
                 controller.modalPresentationStyle = UIModalPresentationFullScreen;
                 [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
                 [self presentViewController:controller animated:YES completion:nil];

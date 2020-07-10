@@ -21,45 +21,15 @@
 		E9138670249B9D82008764AA /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913866D249B9D82008764AA /* FBKVOController.m */; };
 		E91866DB24AF08A7003039FC /* LPDeviceFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91866D924AF08A7003039FC /* LPDeviceFunctionViewController.m */; };
 		E91866DC24AF08A7003039FC /* LPDeviceFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91866DA24AF08A7003039FC /* LPDeviceFunctionViewController.xib */; };
-		E918679524AF0B99003039FC /* LPDefaultPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918674F24AF0B99003039FC /* LPDefaultPlayViewController.xib */; };
-		E918679724AF0B99003039FC /* LPDefaultPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918675324AF0B99003039FC /* LPDefaultPlayViewController.m */; };
-		E918679824AF0B99003039FC /* LPDefaultPlayView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E918675424AF0B99003039FC /* LPDefaultPlayView.bundle */; };
-		E918679924AF0B99003039FC /* AmazonMusicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918675624AF0B99003039FC /* AmazonMusicMainViewController.m */; };
-		E918679A24AF0B99003039FC /* AmazonMusicMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918675724AF0B99003039FC /* AmazonMusicMainViewController.xib */; };
-		E918679B24AF0B99003039FC /* AmazonMusicMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918675924AF0B99003039FC /* AmazonMusicMainTableViewCell.m */; };
-		E918679C24AF0B99003039FC /* AmazonMusicNavigationSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676024AF0B99003039FC /* AmazonMusicNavigationSet.m */; };
-		E918679D24AF0B99003039FC /* AmazonMusicBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676224AF0B99003039FC /* AmazonMusicBoxManager.m */; };
-		E918679E24AF0B99003039FC /* AmazonMusicErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676424AF0B99003039FC /* AmazonMusicErrorView.m */; };
-		E918679F24AF0B99003039FC /* AmazonMusicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676524AF0B99003039FC /* AmazonMusicMethod.m */; };
-		E91867A024AF0B99003039FC /* AmazonMusicSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918676824AF0B99003039FC /* AmazonMusicSearchViewController.xib */; };
-		E91867A124AF0B99003039FC /* AmazonMusicSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918676B24AF0B99003039FC /* AmazonMusicSearchBarView.xib */; };
-		E91867A224AF0B99003039FC /* AmazonMusicSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676C24AF0B99003039FC /* AmazonMusicSearchBarView.m */; };
-		E91867A324AF0B99003039FC /* AmazonSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676D24AF0B99003039FC /* AmazonSearchTableViewCell.m */; };
-		E91867A424AF0B99003039FC /* AmazonMusicSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918676E24AF0B99003039FC /* AmazonMusicSearchHistoryCell.m */; };
-		E91867A524AF0B99003039FC /* AmazonMusicSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918676F24AF0B99003039FC /* AmazonMusicSearchHistoryCell.xib */; };
-		E91867A624AF0B99003039FC /* AmazonMusicHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = E918677324AF0B99003039FC /* AmazonMusicHistory.m */; };
-		E91867A724AF0B99003039FC /* AmazonMusicSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918677424AF0B99003039FC /* AmazonMusicSearchViewController.m */; };
-		E91867A824AF0B99003039FC /* LPAmazonMusicUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E918677524AF0B99003039FC /* LPAmazonMusicUI.bundle */; };
-		E91867A924AF0B99003039FC /* AmazonMusicSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918677824AF0B99003039FC /* AmazonMusicSourceViewController.m */; };
-		E91867AA24AF0B99003039FC /* AmazonSongsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918677A24AF0B99003039FC /* AmazonSongsCollectionViewCell.xib */; };
-		E91867AB24AF0B99003039FC /* AmazonAlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918677B24AF0B99003039FC /* AmazonAlbumCollectionViewCell.xib */; };
-		E91867AC24AF0B99003039FC /* AmazonSongsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918677C24AF0B99003039FC /* AmazonSongsCollectionViewCell.m */; };
-		E91867AD24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918677E24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.m */; };
-		E91867AE24AF0B99003039FC /* AmazonSongsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918677F24AF0B99003039FC /* AmazonSongsTableViewCell.m */; };
-		E91867AF24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918678024AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.xib */; };
-		E91867B024AF0B99003039FC /* AmazonSongsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918678124AF0B99003039FC /* AmazonSongsTableViewCell.xib */; };
-		E91867B124AF0B99003039FC /* AmazonAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918678424AF0B99003039FC /* AmazonAlbumCollectionViewCell.m */; };
-		E91867B224AF0B99003039FC /* AmazonMusicSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918678624AF0B99003039FC /* AmazonMusicSongListViewController.m */; };
-		E91867B324AF0B99003039FC /* AmazonMusicSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918678724AF0B99003039FC /* AmazonMusicSourceViewController.xib */; };
-		E91867B424AF0B99003039FC /* AmazonMusicSongListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918678924AF0B99003039FC /* AmazonMusicSongListViewController.xib */; };
-		E91867B524AF0B99003039FC /* AmazonMusicSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918678B24AF0B99003039FC /* AmazonMusicSettingTableViewCell.xib */; };
-		E91867B624AF0B99003039FC /* AmazonMusicSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E918678C24AF0B99003039FC /* AmazonMusicSettingTableViewCell.m */; };
-		E91867B724AF0B99003039FC /* AmazonMusicSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918678D24AF0B99003039FC /* AmazonMusicSettingViewController.m */; };
-		E91867B824AF0B99003039FC /* AmazonMusicSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E918678E24AF0B99003039FC /* AmazonMusicSettingViewController.xib */; };
-		E91867B924AF0B99003039FC /* AmazonMusicLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918679324AF0B99003039FC /* AmazonMusicLoginController.m */; };
 		E91867BB24AF111D003039FC /* Resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91867BA24AF111D003039FC /* Resource.xcassets */; };
-		E91867C424AF15A2003039FC /* LPMSAmazonMusic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E91867C224AF15A2003039FC /* LPMSAmazonMusic.bundle */; };
-		E91867C524AF15A2003039FC /* AmazonEmberDisplayCd_A_He.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91867C324AF15A2003039FC /* AmazonEmberDisplayCd_A_He.ttf */; };
+		E92EA6E824B8995900E0D2FD /* LPPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EA6DE24B8995800E0D2FD /* LPPlayViewController.m */; };
+		E92EA6E924B8995900E0D2FD /* LPPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92EA6DF24B8995800E0D2FD /* LPPlayViewController.xib */; };
+		E92EA6EA24B8995900E0D2FD /* LPDefaulePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EA6E324B8995800E0D2FD /* LPDefaulePlayView.m */; };
+		E92EA6EB24B8995900E0D2FD /* LPDefaulePlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92EA6E424B8995800E0D2FD /* LPDefaulePlayView.xib */; };
+		E92EA6EC24B8995900E0D2FD /* LPDefaultPlayView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E92EA6E524B8995800E0D2FD /* LPDefaultPlayView.bundle */; };
+		E92EA6ED24B8995900E0D2FD /* LPPlayviewDissmissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EA6E724B8995900E0D2FD /* LPPlayviewDissmissAnimation.m */; };
+		E92EA6F224B89A0700E0D2FD /* LPProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EA6EF24B89A0700E0D2FD /* LPProgressSlider.m */; };
+		E92EA6F324B89A0700E0D2FD /* LPVolumeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EA6F124B89A0700E0D2FD /* LPVolumeSlider.m */; };
 		E9869114249C5A6600685772 /* LPDeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869109249C5A6600685772 /* LPDeviceListViewController.m */; };
 		E9869115249C5A6600685772 /* DeviceKVOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E986910A249C5A6600685772 /* DeviceKVOObject.m */; };
 		E9869116249C5A6600685772 /* LPDeviceListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E986910B249C5A6600685772 /* LPDeviceListTableViewCell.m */; };
@@ -105,54 +75,6 @@
 		E98691F3249C5AA800685772 /* LPAlexaLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E986916D249C5AA700685772 /* LPAlexaLoginViewController.m */; };
 		E98691F4249C5AA800685772 /* LPAlexaManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E986916E249C5AA700685772 /* LPAlexaManagerViewController.m */; };
 		E98691F5249C5AA800685772 /* LPAlexaManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E986916F249C5AA700685772 /* LPAlexaManagerViewController.xib */; };
-		E98691F6249C5AA800685772 /* TuneInProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869172249C5AA700685772 /* TuneInProgressSlider.m */; };
-		E98691F7249C5AA800685772 /* TuneInPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869174249C5AA700685772 /* TuneInPlayViewController.m */; };
-		E98691F8249C5AA800685772 /* TuneInVolumeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869175249C5AA700685772 /* TuneInVolumeSlider.m */; };
-		E98691F9249C5AA800685772 /* TuneInPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9869177249C5AA700685772 /* TuneInPlayViewController.xib */; };
-		E98691FA249C5AA800685772 /* TuneInPlayView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9869179249C5AA700685772 /* TuneInPlayView.bundle */; };
-		E98691FB249C5AA800685772 /* NewTuneInNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869181249C5AA700685772 /* NewTuneInNavigationBar.m */; };
-		E98691FC249C5AA800685772 /* UIButton+LZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869182249C5AA700685772 /* UIButton+LZCategory.m */; };
-		E98691FD249C5AA800685772 /* NewTuneInMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869183249C5AA700685772 /* NewTuneInMethod.m */; };
-		E98691FE249C5AA800685772 /* NewTuneInMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869184249C5AA700685772 /* NewTuneInMenuView.m */; };
-		E98691FF249C5AA800685772 /* NewTuneInMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869185249C5AA700685772 /* NewTuneInMusicManager.m */; };
-		E9869200249C5AA800685772 /* NewTuneInFavoriteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9869187249C5AA700685772 /* NewTuneInFavoriteController.xib */; };
-		E9869201249C5AA800685772 /* NewTuneInFavoriteController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869189249C5AA700685772 /* NewTuneInFavoriteController.m */; };
-		E9869202249C5AA800685772 /* NewTuneInSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E986918B249C5AA700685772 /* NewTuneInSearchController.m */; };
-		E9869203249C5AA800685772 /* NewTuneInSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E986918F249C5AA800685772 /* NewTuneInSearchBarView.m */; };
-		E9869204249C5AA800685772 /* NewTuneInSearchSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9869190249C5AA800685772 /* NewTuneInSearchSecondCell.xib */; };
-		E9869205249C5AA800685772 /* NewTuneInSearchFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869191249C5AA800685772 /* NewTuneInSearchFirstCell.m */; };
-		E9869206249C5AA800685772 /* NewTuneInSearchSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9869192249C5AA800685772 /* NewTuneInSearchSecondCell.m */; };
-		E9869207249C5AA800685772 /* NewTuneInSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9869193249C5AA800685772 /* NewTuneInSearchBarView.xib */; };
-		E9869208249C5AA800685772 /* NewTuneInSearchFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9869194249C5AA800685772 /* NewTuneInSearchFirstCell.xib */; };
-		E9869209249C5AA800685772 /* NewTuneInSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9869197249C5AA800685772 /* NewTuneInSearchController.xib */; };
-		E986920A249C5AA800685772 /* LPTuneIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9869198249C5AA800685772 /* LPTuneIn.bundle */; };
-		E986920B249C5AA800685772 /* NewTuneInBrowseDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E986919A249C5AA800685772 /* NewTuneInBrowseDetailController.xib */; };
-		E986920C249C5AA800685772 /* NewTuneInBrowseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E986919B249C5AA800685772 /* NewTuneInBrowseController.xib */; };
-		E986920D249C5AA800685772 /* NewTuneInBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E986919C249C5AA800685772 /* NewTuneInBrowseController.m */; };
-		E986920E249C5AA800685772 /* NewTuneInBrowseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E986919F249C5AA800685772 /* NewTuneInBrowseTableViewCell.xib */; };
-		E986920F249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691A0249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.m */; };
-		E9869210249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691A2249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.xib */; };
-		E9869211249C5AA800685772 /* NewTuneInBrowseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691A4249C5AA800685772 /* NewTuneInBrowseTableViewCell.m */; };
-		E9869212249C5AA800685772 /* NewTuneInBrowseDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691A6249C5AA800685772 /* NewTuneInBrowseDetailController.m */; };
-		E9869213249C5AA800685772 /* NewTuneInPremiumController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691A8249C5AA800685772 /* NewTuneInPremiumController.m */; };
-		E9869214249C5AA800685772 /* NewTuneInSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691A9249C5AA800685772 /* NewTuneInSettingController.m */; };
-		E9869215249C5AA800685772 /* NewTuneInSettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691AB249C5AA800685772 /* NewTuneInSettingController.xib */; };
-		E9869216249C5AA800685772 /* NewTuneInLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691AE249C5AA800685772 /* NewTuneInLoginViewController.m */; };
-		E9869217249C5AA800685772 /* NewTuneInMusicDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691B0249C5AA800685772 /* NewTuneInMusicDetailController.m */; };
-		E9869218249C5AA800685772 /* NewTuneInMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691B1249C5AA800685772 /* NewTuneInMainController.m */; };
-		E9869219249C5AA800685772 /* NewTuneInMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691B3249C5AA800685772 /* NewTuneInMainController.xib */; };
-		E986921A249C5AA800685772 /* NewTuneInMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691B4249C5AA800685772 /* NewTuneInMoreViewController.xib */; };
-		E986921B249C5AA800685772 /* NewTuneInCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691B7249C5AA800685772 /* NewTuneInCollectionViewCell.m */; };
-		E986921C249C5AA800685772 /* NewTuneInMainTableListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691B8249C5AA800685772 /* NewTuneInMainTableListCell.xib */; };
-		E986921D249C5AA800685772 /* NewTuneInCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691BA249C5AA800685772 /* NewTuneInCollectionViewCell.xib */; };
-		E986921E249C5AA800685772 /* NewTuneInMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691BB249C5AA800685772 /* NewTuneInMainTableViewCell.m */; };
-		E986921F249C5AA800685772 /* NewTuneInMusicDetailHead.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691BF249C5AA800685772 /* NewTuneInMusicDetailHead.xib */; };
-		E9869220249C5AA800685772 /* NewTuneInCollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691C0249C5AA800685772 /* NewTuneInCollectionViewImageCell.m */; };
-		E9869221249C5AA800685772 /* NewTuneInCollectionViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691C1249C5AA800685772 /* NewTuneInCollectionViewImageCell.xib */; };
-		E9869222249C5AA800685772 /* NewTuneInMusicDetailHead.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691C2249C5AA800685772 /* NewTuneInMusicDetailHead.m */; };
-		E9869223249C5AA800685772 /* NewTuneInMainTableListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691C3249C5AA800685772 /* NewTuneInMainTableListCell.m */; };
-		E9869224249C5AA800685772 /* NewTuneInMusicDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98691C6249C5AA800685772 /* NewTuneInMusicDetailController.xib */; };
-		E9869225249C5AA800685772 /* NewTuneInMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98691C7249C5AA800685772 /* NewTuneInMoreViewController.m */; };
 		E9869232249C621B00685772 /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E986922B249C621B00685772 /* MJRefreshHeaderView.m */; };
 		E9869233249C621B00685772 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E986922D249C621B00685772 /* MJRefresh.bundle */; };
 		E9869234249C621B00685772 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E986922E249C621B00685772 /* MJRefreshBaseView.m */; };
@@ -208,67 +130,21 @@
 		E91866D824AF08A6003039FC /* LPDeviceFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDeviceFunctionViewController.h; sourceTree = "<group>"; };
 		E91866D924AF08A7003039FC /* LPDeviceFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDeviceFunctionViewController.m; sourceTree = "<group>"; };
 		E91866DA24AF08A7003039FC /* LPDeviceFunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPDeviceFunctionViewController.xib; sourceTree = "<group>"; };
-		E918674E24AF0B99003039FC /* LPDefaultPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDefaultPlayViewController.h; sourceTree = "<group>"; };
-		E918674F24AF0B99003039FC /* LPDefaultPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPDefaultPlayViewController.xib; sourceTree = "<group>"; };
-		E918675324AF0B99003039FC /* LPDefaultPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDefaultPlayViewController.m; sourceTree = "<group>"; };
-		E918675424AF0B99003039FC /* LPDefaultPlayView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LPDefaultPlayView.bundle; sourceTree = "<group>"; };
-		E918675624AF0B99003039FC /* AmazonMusicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicMainViewController.m; sourceTree = "<group>"; };
-		E918675724AF0B99003039FC /* AmazonMusicMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicMainViewController.xib; sourceTree = "<group>"; };
-		E918675924AF0B99003039FC /* AmazonMusicMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicMainTableViewCell.m; sourceTree = "<group>"; };
-		E918675A24AF0B99003039FC /* AmazonMusicMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicMainTableViewCell.h; sourceTree = "<group>"; };
-		E918675B24AF0B99003039FC /* AmazonMusicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicMainViewController.h; sourceTree = "<group>"; };
-		E918675D24AF0B99003039FC /* AmazonMusicBoxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicBoxManager.h; sourceTree = "<group>"; };
-		E918675E24AF0B99003039FC /* AmazonMusicConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicConfig.h; sourceTree = "<group>"; };
-		E918675F24AF0B99003039FC /* AmazonMusicErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicErrorView.h; sourceTree = "<group>"; };
-		E918676024AF0B99003039FC /* AmazonMusicNavigationSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicNavigationSet.m; sourceTree = "<group>"; };
-		E918676124AF0B99003039FC /* AmazonMusicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicMethod.h; sourceTree = "<group>"; };
-		E918676224AF0B99003039FC /* AmazonMusicBoxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicBoxManager.m; sourceTree = "<group>"; };
-		E918676324AF0B99003039FC /* AmazonMusicNavigationSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicNavigationSet.h; sourceTree = "<group>"; };
-		E918676424AF0B99003039FC /* AmazonMusicErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicErrorView.m; sourceTree = "<group>"; };
-		E918676524AF0B99003039FC /* AmazonMusicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicMethod.m; sourceTree = "<group>"; };
-		E918676724AF0B99003039FC /* AmazonMusicHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicHistory.h; sourceTree = "<group>"; };
-		E918676824AF0B99003039FC /* AmazonMusicSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSearchViewController.xib; sourceTree = "<group>"; };
-		E918676924AF0B99003039FC /* AmazonMusicSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSearchViewController.h; sourceTree = "<group>"; };
-		E918676B24AF0B99003039FC /* AmazonMusicSearchBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSearchBarView.xib; sourceTree = "<group>"; };
-		E918676C24AF0B99003039FC /* AmazonMusicSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSearchBarView.m; sourceTree = "<group>"; };
-		E918676D24AF0B99003039FC /* AmazonSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonSearchTableViewCell.m; sourceTree = "<group>"; };
-		E918676E24AF0B99003039FC /* AmazonMusicSearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSearchHistoryCell.m; sourceTree = "<group>"; };
-		E918676F24AF0B99003039FC /* AmazonMusicSearchHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSearchHistoryCell.xib; sourceTree = "<group>"; };
-		E918677024AF0B99003039FC /* AmazonMusicSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSearchBarView.h; sourceTree = "<group>"; };
-		E918677124AF0B99003039FC /* AmazonMusicSearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSearchHistoryCell.h; sourceTree = "<group>"; };
-		E918677224AF0B99003039FC /* AmazonSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonSearchTableViewCell.h; sourceTree = "<group>"; };
-		E918677324AF0B99003039FC /* AmazonMusicHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicHistory.m; sourceTree = "<group>"; };
-		E918677424AF0B99003039FC /* AmazonMusicSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSearchViewController.m; sourceTree = "<group>"; };
-		E918677524AF0B99003039FC /* LPAmazonMusicUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LPAmazonMusicUI.bundle; sourceTree = "<group>"; };
-		E918677724AF0B99003039FC /* AmazonMusicSongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSongListViewController.h; sourceTree = "<group>"; };
-		E918677824AF0B99003039FC /* AmazonMusicSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSourceViewController.m; sourceTree = "<group>"; };
-		E918677A24AF0B99003039FC /* AmazonSongsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonSongsCollectionViewCell.xib; sourceTree = "<group>"; };
-		E918677B24AF0B99003039FC /* AmazonAlbumCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonAlbumCollectionViewCell.xib; sourceTree = "<group>"; };
-		E918677C24AF0B99003039FC /* AmazonSongsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonSongsCollectionViewCell.m; sourceTree = "<group>"; };
-		E918677D24AF0B99003039FC /* AmazonAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonAlbumCollectionViewCell.h; sourceTree = "<group>"; };
-		E918677E24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPlaylistsCollectionViewCell.m; sourceTree = "<group>"; };
-		E918677F24AF0B99003039FC /* AmazonSongsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonSongsTableViewCell.m; sourceTree = "<group>"; };
-		E918678024AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonPlaylistsCollectionViewCell.xib; sourceTree = "<group>"; };
-		E918678124AF0B99003039FC /* AmazonSongsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonSongsTableViewCell.xib; sourceTree = "<group>"; };
-		E918678224AF0B99003039FC /* AmazonSongsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonSongsCollectionViewCell.h; sourceTree = "<group>"; };
-		E918678324AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPlaylistsCollectionViewCell.h; sourceTree = "<group>"; };
-		E918678424AF0B99003039FC /* AmazonAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonAlbumCollectionViewCell.m; sourceTree = "<group>"; };
-		E918678524AF0B99003039FC /* AmazonSongsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonSongsTableViewCell.h; sourceTree = "<group>"; };
-		E918678624AF0B99003039FC /* AmazonMusicSongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSongListViewController.m; sourceTree = "<group>"; };
-		E918678724AF0B99003039FC /* AmazonMusicSourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSourceViewController.xib; sourceTree = "<group>"; };
-		E918678824AF0B99003039FC /* AmazonMusicSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSourceViewController.h; sourceTree = "<group>"; };
-		E918678924AF0B99003039FC /* AmazonMusicSongListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSongListViewController.xib; sourceTree = "<group>"; };
-		E918678B24AF0B99003039FC /* AmazonMusicSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSettingTableViewCell.xib; sourceTree = "<group>"; };
-		E918678C24AF0B99003039FC /* AmazonMusicSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSettingTableViewCell.m; sourceTree = "<group>"; };
-		E918678D24AF0B99003039FC /* AmazonMusicSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicSettingViewController.m; sourceTree = "<group>"; };
-		E918678E24AF0B99003039FC /* AmazonMusicSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazonMusicSettingViewController.xib; sourceTree = "<group>"; };
-		E918678F24AF0B99003039FC /* AmazonMusicSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSettingViewController.h; sourceTree = "<group>"; };
-		E918679024AF0B99003039FC /* AmazonMusicSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicSettingTableViewCell.h; sourceTree = "<group>"; };
-		E918679224AF0B99003039FC /* AmazonMusicLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicLoginController.h; sourceTree = "<group>"; };
-		E918679324AF0B99003039FC /* AmazonMusicLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicLoginController.m; sourceTree = "<group>"; };
 		E91867BA24AF111D003039FC /* Resource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resource.xcassets; sourceTree = "<group>"; };
-		E91867C224AF15A2003039FC /* LPMSAmazonMusic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LPMSAmazonMusic.bundle; sourceTree = "<group>"; };
-		E91867C324AF15A2003039FC /* AmazonEmberDisplayCd_A_He.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmazonEmberDisplayCd_A_He.ttf; sourceTree = "<group>"; };
+		E92EA6DC24B898FD00E0D2FD /* LPBasicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPBasicHeader.h; sourceTree = "<group>"; };
+		E92EA6DE24B8995800E0D2FD /* LPPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPlayViewController.m; sourceTree = "<group>"; };
+		E92EA6DF24B8995800E0D2FD /* LPPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPPlayViewController.xib; sourceTree = "<group>"; };
+		E92EA6E024B8995800E0D2FD /* LPPlayviewDissmissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPlayviewDissmissAnimation.h; sourceTree = "<group>"; };
+		E92EA6E224B8995800E0D2FD /* LPDefaulePlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDefaulePlayView.h; sourceTree = "<group>"; };
+		E92EA6E324B8995800E0D2FD /* LPDefaulePlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDefaulePlayView.m; sourceTree = "<group>"; };
+		E92EA6E424B8995800E0D2FD /* LPDefaulePlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPDefaulePlayView.xib; sourceTree = "<group>"; };
+		E92EA6E524B8995800E0D2FD /* LPDefaultPlayView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LPDefaultPlayView.bundle; sourceTree = "<group>"; };
+		E92EA6E624B8995800E0D2FD /* LPPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPlayViewController.h; sourceTree = "<group>"; };
+		E92EA6E724B8995900E0D2FD /* LPPlayviewDissmissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPlayviewDissmissAnimation.m; sourceTree = "<group>"; };
+		E92EA6EE24B89A0700E0D2FD /* LPProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProgressSlider.h; sourceTree = "<group>"; };
+		E92EA6EF24B89A0700E0D2FD /* LPProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProgressSlider.m; sourceTree = "<group>"; };
+		E92EA6F024B89A0700E0D2FD /* LPVolumeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPVolumeSlider.h; sourceTree = "<group>"; };
+		E92EA6F124B89A0700E0D2FD /* LPVolumeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPVolumeSlider.m; sourceTree = "<group>"; };
 		E9869109249C5A6600685772 /* LPDeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDeviceListViewController.m; sourceTree = "<group>"; };
 		E986910A249C5A6600685772 /* DeviceKVOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceKVOObject.m; sourceTree = "<group>"; };
 		E986910B249C5A6600685772 /* LPDeviceListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDeviceListTableViewCell.m; sourceTree = "<group>"; };
@@ -337,83 +213,6 @@
 		E986916D249C5AA700685772 /* LPAlexaLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAlexaLoginViewController.m; sourceTree = "<group>"; };
 		E986916E249C5AA700685772 /* LPAlexaManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAlexaManagerViewController.m; sourceTree = "<group>"; };
 		E986916F249C5AA700685772 /* LPAlexaManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPAlexaManagerViewController.xib; sourceTree = "<group>"; };
-		E9869172249C5AA700685772 /* TuneInProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneInProgressSlider.m; sourceTree = "<group>"; };
-		E9869173249C5AA700685772 /* TuneInVolumeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneInVolumeSlider.h; sourceTree = "<group>"; };
-		E9869174249C5AA700685772 /* TuneInPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneInPlayViewController.m; sourceTree = "<group>"; };
-		E9869175249C5AA700685772 /* TuneInVolumeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneInVolumeSlider.m; sourceTree = "<group>"; };
-		E9869176249C5AA700685772 /* TuneInProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneInProgressSlider.h; sourceTree = "<group>"; };
-		E9869177249C5AA700685772 /* TuneInPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuneInPlayViewController.xib; sourceTree = "<group>"; };
-		E9869178249C5AA700685772 /* TuneInPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneInPlayViewController.h; sourceTree = "<group>"; };
-		E9869179249C5AA700685772 /* TuneInPlayView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TuneInPlayView.bundle; sourceTree = "<group>"; };
-		E986917B249C5AA700685772 /* NewTuneInNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInNavigationBar.h; sourceTree = "<group>"; };
-		E986917C249C5AA700685772 /* NewTuneInMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMenuView.h; sourceTree = "<group>"; };
-		E986917D249C5AA700685772 /* NewTuneInMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMethod.h; sourceTree = "<group>"; };
-		E986917E249C5AA700685772 /* UIButton+LZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LZCategory.h"; sourceTree = "<group>"; };
-		E986917F249C5AA700685772 /* NewTuneInMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMusicManager.h; sourceTree = "<group>"; };
-		E9869180249C5AA700685772 /* NewTuneInConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInConfig.h; sourceTree = "<group>"; };
-		E9869181249C5AA700685772 /* NewTuneInNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInNavigationBar.m; sourceTree = "<group>"; };
-		E9869182249C5AA700685772 /* UIButton+LZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LZCategory.m"; sourceTree = "<group>"; };
-		E9869183249C5AA700685772 /* NewTuneInMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMethod.m; sourceTree = "<group>"; };
-		E9869184249C5AA700685772 /* NewTuneInMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMenuView.m; sourceTree = "<group>"; };
-		E9869185249C5AA700685772 /* NewTuneInMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMusicManager.m; sourceTree = "<group>"; };
-		E9869187249C5AA700685772 /* NewTuneInFavoriteController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInFavoriteController.xib; sourceTree = "<group>"; };
-		E9869188249C5AA700685772 /* NewTuneInFavoriteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInFavoriteController.h; sourceTree = "<group>"; };
-		E9869189249C5AA700685772 /* NewTuneInFavoriteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInFavoriteController.m; sourceTree = "<group>"; };
-		E986918B249C5AA700685772 /* NewTuneInSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchController.m; sourceTree = "<group>"; };
-		E986918C249C5AA700685772 /* NewTuneInSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchController.h; sourceTree = "<group>"; };
-		E986918E249C5AA800685772 /* NewTuneInSearchSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchSecondCell.h; sourceTree = "<group>"; };
-		E986918F249C5AA800685772 /* NewTuneInSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchBarView.m; sourceTree = "<group>"; };
-		E9869190249C5AA800685772 /* NewTuneInSearchSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchSecondCell.xib; sourceTree = "<group>"; };
-		E9869191249C5AA800685772 /* NewTuneInSearchFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchFirstCell.m; sourceTree = "<group>"; };
-		E9869192249C5AA800685772 /* NewTuneInSearchSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchSecondCell.m; sourceTree = "<group>"; };
-		E9869193249C5AA800685772 /* NewTuneInSearchBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchBarView.xib; sourceTree = "<group>"; };
-		E9869194249C5AA800685772 /* NewTuneInSearchFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchFirstCell.xib; sourceTree = "<group>"; };
-		E9869195249C5AA800685772 /* NewTuneInSearchFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchFirstCell.h; sourceTree = "<group>"; };
-		E9869196249C5AA800685772 /* NewTuneInSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchBarView.h; sourceTree = "<group>"; };
-		E9869197249C5AA800685772 /* NewTuneInSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchController.xib; sourceTree = "<group>"; };
-		E9869198249C5AA800685772 /* LPTuneIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LPTuneIn.bundle; sourceTree = "<group>"; };
-		E986919A249C5AA800685772 /* NewTuneInBrowseDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseDetailController.xib; sourceTree = "<group>"; };
-		E986919B249C5AA800685772 /* NewTuneInBrowseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseController.xib; sourceTree = "<group>"; };
-		E986919C249C5AA800685772 /* NewTuneInBrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseController.m; sourceTree = "<group>"; };
-		E986919D249C5AA800685772 /* NewTuneInBrowseDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseDetailController.h; sourceTree = "<group>"; };
-		E986919F249C5AA800685772 /* NewTuneInBrowseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseTableViewCell.xib; sourceTree = "<group>"; };
-		E98691A0249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseDetailTableViewCell.m; sourceTree = "<group>"; };
-		E98691A1249C5AA800685772 /* NewTuneInBrowseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseTableViewCell.h; sourceTree = "<group>"; };
-		E98691A2249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseDetailTableViewCell.xib; sourceTree = "<group>"; };
-		E98691A3249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseDetailTableViewCell.h; sourceTree = "<group>"; };
-		E98691A4249C5AA800685772 /* NewTuneInBrowseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseTableViewCell.m; sourceTree = "<group>"; };
-		E98691A5249C5AA800685772 /* NewTuneInBrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseController.h; sourceTree = "<group>"; };
-		E98691A6249C5AA800685772 /* NewTuneInBrowseDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseDetailController.m; sourceTree = "<group>"; };
-		E98691A8249C5AA800685772 /* NewTuneInPremiumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInPremiumController.m; sourceTree = "<group>"; };
-		E98691A9249C5AA800685772 /* NewTuneInSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSettingController.m; sourceTree = "<group>"; };
-		E98691AA249C5AA800685772 /* NewTuneInLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInLoginViewController.h; sourceTree = "<group>"; };
-		E98691AB249C5AA800685772 /* NewTuneInSettingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSettingController.xib; sourceTree = "<group>"; };
-		E98691AC249C5AA800685772 /* NewTuneInSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSettingController.h; sourceTree = "<group>"; };
-		E98691AD249C5AA800685772 /* NewTuneInPremiumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInPremiumController.h; sourceTree = "<group>"; };
-		E98691AE249C5AA800685772 /* NewTuneInLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInLoginViewController.m; sourceTree = "<group>"; };
-		E98691B0249C5AA800685772 /* NewTuneInMusicDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMusicDetailController.m; sourceTree = "<group>"; };
-		E98691B1249C5AA800685772 /* NewTuneInMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainController.m; sourceTree = "<group>"; };
-		E98691B2249C5AA800685772 /* NewTuneInMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMoreViewController.h; sourceTree = "<group>"; };
-		E98691B3249C5AA800685772 /* NewTuneInMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMainController.xib; sourceTree = "<group>"; };
-		E98691B4249C5AA800685772 /* NewTuneInMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMoreViewController.xib; sourceTree = "<group>"; };
-		E98691B5249C5AA800685772 /* NewTuneInMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainController.h; sourceTree = "<group>"; };
-		E98691B7249C5AA800685772 /* NewTuneInCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInCollectionViewCell.m; sourceTree = "<group>"; };
-		E98691B8249C5AA800685772 /* NewTuneInMainTableListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMainTableListCell.xib; sourceTree = "<group>"; };
-		E98691B9249C5AA800685772 /* NewTuneInCollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInCollectionViewImageCell.h; sourceTree = "<group>"; };
-		E98691BA249C5AA800685772 /* NewTuneInCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInCollectionViewCell.xib; sourceTree = "<group>"; };
-		E98691BB249C5AA800685772 /* NewTuneInMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainTableViewCell.m; sourceTree = "<group>"; };
-		E98691BC249C5AA800685772 /* NewTuneInMainTableListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainTableListCell.h; sourceTree = "<group>"; };
-		E98691BD249C5AA800685772 /* NewTuneInMusicDetailHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMusicDetailHead.h; sourceTree = "<group>"; };
-		E98691BE249C5AA800685772 /* NewTuneInCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInCollectionViewCell.h; sourceTree = "<group>"; };
-		E98691BF249C5AA800685772 /* NewTuneInMusicDetailHead.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMusicDetailHead.xib; sourceTree = "<group>"; };
-		E98691C0249C5AA800685772 /* NewTuneInCollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInCollectionViewImageCell.m; sourceTree = "<group>"; };
-		E98691C1249C5AA800685772 /* NewTuneInCollectionViewImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInCollectionViewImageCell.xib; sourceTree = "<group>"; };
-		E98691C2249C5AA800685772 /* NewTuneInMusicDetailHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMusicDetailHead.m; sourceTree = "<group>"; };
-		E98691C3249C5AA800685772 /* NewTuneInMainTableListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainTableListCell.m; sourceTree = "<group>"; };
-		E98691C4249C5AA800685772 /* NewTuneInMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainTableViewCell.h; sourceTree = "<group>"; };
-		E98691C5249C5AA800685772 /* NewTuneInMusicDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMusicDetailController.h; sourceTree = "<group>"; };
-		E98691C6249C5AA800685772 /* NewTuneInMusicDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMusicDetailController.xib; sourceTree = "<group>"; };
-		E98691C7249C5AA800685772 /* NewTuneInMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMoreViewController.m; sourceTree = "<group>"; };
 		E9869226249C5C7A00685772 /* LPMusicKitDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMusicKitDemo.pch; sourceTree = "<group>"; };
 		E986922A249C621B00685772 /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
 		E986922B249C621B00685772 /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
@@ -514,7 +313,8 @@
 				E9869110249C5A6600685772 /* LPDeviceListViewController.h */,
 				E9869109249C5A6600685772 /* LPDeviceListViewController.m */,
 				E986910F249C5A6600685772 /* LPDeviceListViewController.xib */,
-				E918674A24AF0B99003039FC /* LPAmazonMusic */,
+				E92EA6DC24B898FD00E0D2FD /* LPBasicHeader.h */,
+				E92EA6D124B897E900E0D2FD /* LPPlayview */,
 				E9869144249C5AA700685772 /* LocalMusic */,
 				E9869166249C5AA700685772 /* LPAlexa */,
 				E986914E249C5AA700685772 /* LPBLE */,
@@ -522,7 +322,6 @@
 				E986913C249C5AA700685772 /* LPNAS */,
 				E9869159249C5AA700685772 /* LPOTA */,
 				E9869160249C5AA700685772 /* LPPlayer */,
-				E9869170249C5AA700685772 /* LPTuneIn */,
 				E9869140249C5AA700685772 /* LPUSB */,
 				E9869152249C5AA700685772 /* LPWiFiSetup */,
 				E986911F249C5AA700685772 /* Public */,
@@ -577,159 +376,32 @@
 			path = FBKVOController;
 			sourceTree = "<group>";
 		};
-		E918674A24AF0B99003039FC /* LPAmazonMusic */ = {
+		E92EA6D124B897E900E0D2FD /* LPPlayview */ = {
 			isa = PBXGroup;
 			children = (
-				E91867C124AF15A2003039FC /* LPAmazonMusicBundle */,
-				E918677624AF0B99003039FC /* Browse */,
-				E918675C24AF0B99003039FC /* Config */,
-				E918675524AF0B99003039FC /* Home */,
-				E918679124AF0B99003039FC /* Login */,
-				E918677524AF0B99003039FC /* LPAmazonMusicUI.bundle */,
-				E918674B24AF0B99003039FC /* Playview */,
-				E918676624AF0B99003039FC /* Search */,
-				E918678A24AF0B99003039FC /* Setting */,
+				E92EA6E124B8995800E0D2FD /* DefaultPlayView */,
+				E92EA6E524B8995800E0D2FD /* LPDefaultPlayView.bundle */,
+				E92EA6E624B8995800E0D2FD /* LPPlayViewController.h */,
+				E92EA6DE24B8995800E0D2FD /* LPPlayViewController.m */,
+				E92EA6DF24B8995800E0D2FD /* LPPlayViewController.xib */,
+				E92EA6E024B8995800E0D2FD /* LPPlayviewDissmissAnimation.h */,
+				E92EA6E724B8995900E0D2FD /* LPPlayviewDissmissAnimation.m */,
+				E92EA6EE24B89A0700E0D2FD /* LPProgressSlider.h */,
+				E92EA6EF24B89A0700E0D2FD /* LPProgressSlider.m */,
+				E92EA6F024B89A0700E0D2FD /* LPVolumeSlider.h */,
+				E92EA6F124B89A0700E0D2FD /* LPVolumeSlider.m */,
 			);
-			path = LPAmazonMusic;
+			path = LPPlayview;
 			sourceTree = "<group>";
 		};
-		E918674B24AF0B99003039FC /* Playview */ = {
+		E92EA6E124B8995800E0D2FD /* DefaultPlayView */ = {
 			isa = PBXGroup;
 			children = (
-				E918675424AF0B99003039FC /* LPDefaultPlayView.bundle */,
-				E918674E24AF0B99003039FC /* LPDefaultPlayViewController.h */,
-				E918675324AF0B99003039FC /* LPDefaultPlayViewController.m */,
-				E918674F24AF0B99003039FC /* LPDefaultPlayViewController.xib */,
+				E92EA6E224B8995800E0D2FD /* LPDefaulePlayView.h */,
+				E92EA6E324B8995800E0D2FD /* LPDefaulePlayView.m */,
+				E92EA6E424B8995800E0D2FD /* LPDefaulePlayView.xib */,
 			);
-			path = Playview;
-			sourceTree = "<group>";
-		};
-		E918675524AF0B99003039FC /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				E918675624AF0B99003039FC /* AmazonMusicMainViewController.m */,
-				E918675724AF0B99003039FC /* AmazonMusicMainViewController.xib */,
-				E918675824AF0B99003039FC /* View */,
-				E918675B24AF0B99003039FC /* AmazonMusicMainViewController.h */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		E918675824AF0B99003039FC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E918675924AF0B99003039FC /* AmazonMusicMainTableViewCell.m */,
-				E918675A24AF0B99003039FC /* AmazonMusicMainTableViewCell.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E918675C24AF0B99003039FC /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				E918675D24AF0B99003039FC /* AmazonMusicBoxManager.h */,
-				E918675E24AF0B99003039FC /* AmazonMusicConfig.h */,
-				E918675F24AF0B99003039FC /* AmazonMusicErrorView.h */,
-				E918676024AF0B99003039FC /* AmazonMusicNavigationSet.m */,
-				E918676124AF0B99003039FC /* AmazonMusicMethod.h */,
-				E918676224AF0B99003039FC /* AmazonMusicBoxManager.m */,
-				E918676324AF0B99003039FC /* AmazonMusicNavigationSet.h */,
-				E918676424AF0B99003039FC /* AmazonMusicErrorView.m */,
-				E918676524AF0B99003039FC /* AmazonMusicMethod.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		E918676624AF0B99003039FC /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				E918676724AF0B99003039FC /* AmazonMusicHistory.h */,
-				E918676824AF0B99003039FC /* AmazonMusicSearchViewController.xib */,
-				E918676924AF0B99003039FC /* AmazonMusicSearchViewController.h */,
-				E918676A24AF0B99003039FC /* View */,
-				E918677324AF0B99003039FC /* AmazonMusicHistory.m */,
-				E918677424AF0B99003039FC /* AmazonMusicSearchViewController.m */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		E918676A24AF0B99003039FC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E918676B24AF0B99003039FC /* AmazonMusicSearchBarView.xib */,
-				E918676C24AF0B99003039FC /* AmazonMusicSearchBarView.m */,
-				E918676D24AF0B99003039FC /* AmazonSearchTableViewCell.m */,
-				E918676E24AF0B99003039FC /* AmazonMusicSearchHistoryCell.m */,
-				E918676F24AF0B99003039FC /* AmazonMusicSearchHistoryCell.xib */,
-				E918677024AF0B99003039FC /* AmazonMusicSearchBarView.h */,
-				E918677124AF0B99003039FC /* AmazonMusicSearchHistoryCell.h */,
-				E918677224AF0B99003039FC /* AmazonSearchTableViewCell.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E918677624AF0B99003039FC /* Browse */ = {
-			isa = PBXGroup;
-			children = (
-				E918677724AF0B99003039FC /* AmazonMusicSongListViewController.h */,
-				E918677824AF0B99003039FC /* AmazonMusicSourceViewController.m */,
-				E918677924AF0B99003039FC /* Cell */,
-				E918678624AF0B99003039FC /* AmazonMusicSongListViewController.m */,
-				E918678724AF0B99003039FC /* AmazonMusicSourceViewController.xib */,
-				E918678824AF0B99003039FC /* AmazonMusicSourceViewController.h */,
-				E918678924AF0B99003039FC /* AmazonMusicSongListViewController.xib */,
-			);
-			path = Browse;
-			sourceTree = "<group>";
-		};
-		E918677924AF0B99003039FC /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				E918677A24AF0B99003039FC /* AmazonSongsCollectionViewCell.xib */,
-				E918677B24AF0B99003039FC /* AmazonAlbumCollectionViewCell.xib */,
-				E918677C24AF0B99003039FC /* AmazonSongsCollectionViewCell.m */,
-				E918677D24AF0B99003039FC /* AmazonAlbumCollectionViewCell.h */,
-				E918677E24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.m */,
-				E918677F24AF0B99003039FC /* AmazonSongsTableViewCell.m */,
-				E918678024AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.xib */,
-				E918678124AF0B99003039FC /* AmazonSongsTableViewCell.xib */,
-				E918678224AF0B99003039FC /* AmazonSongsCollectionViewCell.h */,
-				E918678324AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.h */,
-				E918678424AF0B99003039FC /* AmazonAlbumCollectionViewCell.m */,
-				E918678524AF0B99003039FC /* AmazonSongsTableViewCell.h */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		E918678A24AF0B99003039FC /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				E918678B24AF0B99003039FC /* AmazonMusicSettingTableViewCell.xib */,
-				E918678C24AF0B99003039FC /* AmazonMusicSettingTableViewCell.m */,
-				E918678D24AF0B99003039FC /* AmazonMusicSettingViewController.m */,
-				E918678E24AF0B99003039FC /* AmazonMusicSettingViewController.xib */,
-				E918678F24AF0B99003039FC /* AmazonMusicSettingViewController.h */,
-				E918679024AF0B99003039FC /* AmazonMusicSettingTableViewCell.h */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
-		E918679124AF0B99003039FC /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				E918679224AF0B99003039FC /* AmazonMusicLoginController.h */,
-				E918679324AF0B99003039FC /* AmazonMusicLoginController.m */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		E91867C124AF15A2003039FC /* LPAmazonMusicBundle */ = {
-			isa = PBXGroup;
-			children = (
-				E91867C224AF15A2003039FC /* LPMSAmazonMusic.bundle */,
-				E91867C324AF15A2003039FC /* AmazonEmberDisplayCd_A_He.ttf */,
-			);
-			path = LPAmazonMusicBundle;
+			path = DefaultPlayView;
 			sourceTree = "<group>";
 		};
 		E986911B249C5AA700685772 /* LPMultiroom */ = {
@@ -897,170 +569,6 @@
 			path = LPAlexa;
 			sourceTree = "<group>";
 		};
-		E9869170249C5AA700685772 /* LPTuneIn */ = {
-			isa = PBXGroup;
-			children = (
-				E9869171249C5AA700685772 /* PlayView */,
-				E986917A249C5AA700685772 /* Config */,
-				E9869186249C5AA700685772 /* Favorite */,
-				E986918A249C5AA700685772 /* Search */,
-				E9869198249C5AA800685772 /* LPTuneIn.bundle */,
-				E9869199249C5AA800685772 /* Browse */,
-				E98691A7249C5AA800685772 /* Setting */,
-				E98691AF249C5AA800685772 /* Main */,
-			);
-			path = LPTuneIn;
-			sourceTree = "<group>";
-		};
-		E9869171249C5AA700685772 /* PlayView */ = {
-			isa = PBXGroup;
-			children = (
-				E9869179249C5AA700685772 /* TuneInPlayView.bundle */,
-				E9869178249C5AA700685772 /* TuneInPlayViewController.h */,
-				E9869174249C5AA700685772 /* TuneInPlayViewController.m */,
-				E9869177249C5AA700685772 /* TuneInPlayViewController.xib */,
-				E9869176249C5AA700685772 /* TuneInProgressSlider.h */,
-				E9869172249C5AA700685772 /* TuneInProgressSlider.m */,
-				E9869173249C5AA700685772 /* TuneInVolumeSlider.h */,
-				E9869175249C5AA700685772 /* TuneInVolumeSlider.m */,
-			);
-			path = PlayView;
-			sourceTree = "<group>";
-		};
-		E986917A249C5AA700685772 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				E9869180249C5AA700685772 /* NewTuneInConfig.h */,
-				E986917C249C5AA700685772 /* NewTuneInMenuView.h */,
-				E9869184249C5AA700685772 /* NewTuneInMenuView.m */,
-				E986917D249C5AA700685772 /* NewTuneInMethod.h */,
-				E9869183249C5AA700685772 /* NewTuneInMethod.m */,
-				E986917F249C5AA700685772 /* NewTuneInMusicManager.h */,
-				E9869185249C5AA700685772 /* NewTuneInMusicManager.m */,
-				E986917B249C5AA700685772 /* NewTuneInNavigationBar.h */,
-				E9869181249C5AA700685772 /* NewTuneInNavigationBar.m */,
-				E986917E249C5AA700685772 /* UIButton+LZCategory.h */,
-				E9869182249C5AA700685772 /* UIButton+LZCategory.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		E9869186249C5AA700685772 /* Favorite */ = {
-			isa = PBXGroup;
-			children = (
-				E9869187249C5AA700685772 /* NewTuneInFavoriteController.xib */,
-				E9869188249C5AA700685772 /* NewTuneInFavoriteController.h */,
-				E9869189249C5AA700685772 /* NewTuneInFavoriteController.m */,
-			);
-			path = Favorite;
-			sourceTree = "<group>";
-		};
-		E986918A249C5AA700685772 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				E986918B249C5AA700685772 /* NewTuneInSearchController.m */,
-				E986918C249C5AA700685772 /* NewTuneInSearchController.h */,
-				E986918D249C5AA700685772 /* View */,
-				E9869197249C5AA800685772 /* NewTuneInSearchController.xib */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		E986918D249C5AA700685772 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E986918E249C5AA800685772 /* NewTuneInSearchSecondCell.h */,
-				E986918F249C5AA800685772 /* NewTuneInSearchBarView.m */,
-				E9869190249C5AA800685772 /* NewTuneInSearchSecondCell.xib */,
-				E9869191249C5AA800685772 /* NewTuneInSearchFirstCell.m */,
-				E9869192249C5AA800685772 /* NewTuneInSearchSecondCell.m */,
-				E9869193249C5AA800685772 /* NewTuneInSearchBarView.xib */,
-				E9869194249C5AA800685772 /* NewTuneInSearchFirstCell.xib */,
-				E9869195249C5AA800685772 /* NewTuneInSearchFirstCell.h */,
-				E9869196249C5AA800685772 /* NewTuneInSearchBarView.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E9869199249C5AA800685772 /* Browse */ = {
-			isa = PBXGroup;
-			children = (
-				E986919A249C5AA800685772 /* NewTuneInBrowseDetailController.xib */,
-				E986919B249C5AA800685772 /* NewTuneInBrowseController.xib */,
-				E986919C249C5AA800685772 /* NewTuneInBrowseController.m */,
-				E986919D249C5AA800685772 /* NewTuneInBrowseDetailController.h */,
-				E986919E249C5AA800685772 /* View */,
-				E98691A5249C5AA800685772 /* NewTuneInBrowseController.h */,
-				E98691A6249C5AA800685772 /* NewTuneInBrowseDetailController.m */,
-			);
-			path = Browse;
-			sourceTree = "<group>";
-		};
-		E986919E249C5AA800685772 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E986919F249C5AA800685772 /* NewTuneInBrowseTableViewCell.xib */,
-				E98691A0249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.m */,
-				E98691A1249C5AA800685772 /* NewTuneInBrowseTableViewCell.h */,
-				E98691A2249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.xib */,
-				E98691A3249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.h */,
-				E98691A4249C5AA800685772 /* NewTuneInBrowseTableViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E98691A7249C5AA800685772 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				E98691A8249C5AA800685772 /* NewTuneInPremiumController.m */,
-				E98691A9249C5AA800685772 /* NewTuneInSettingController.m */,
-				E98691AA249C5AA800685772 /* NewTuneInLoginViewController.h */,
-				E98691AB249C5AA800685772 /* NewTuneInSettingController.xib */,
-				E98691AC249C5AA800685772 /* NewTuneInSettingController.h */,
-				E98691AD249C5AA800685772 /* NewTuneInPremiumController.h */,
-				E98691AE249C5AA800685772 /* NewTuneInLoginViewController.m */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
-		E98691AF249C5AA800685772 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				E98691B0249C5AA800685772 /* NewTuneInMusicDetailController.m */,
-				E98691B1249C5AA800685772 /* NewTuneInMainController.m */,
-				E98691B2249C5AA800685772 /* NewTuneInMoreViewController.h */,
-				E98691B3249C5AA800685772 /* NewTuneInMainController.xib */,
-				E98691B4249C5AA800685772 /* NewTuneInMoreViewController.xib */,
-				E98691B5249C5AA800685772 /* NewTuneInMainController.h */,
-				E98691B6249C5AA800685772 /* View */,
-				E98691C5249C5AA800685772 /* NewTuneInMusicDetailController.h */,
-				E98691C6249C5AA800685772 /* NewTuneInMusicDetailController.xib */,
-				E98691C7249C5AA800685772 /* NewTuneInMoreViewController.m */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		E98691B6249C5AA800685772 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E98691B7249C5AA800685772 /* NewTuneInCollectionViewCell.m */,
-				E98691B8249C5AA800685772 /* NewTuneInMainTableListCell.xib */,
-				E98691B9249C5AA800685772 /* NewTuneInCollectionViewImageCell.h */,
-				E98691BA249C5AA800685772 /* NewTuneInCollectionViewCell.xib */,
-				E98691BB249C5AA800685772 /* NewTuneInMainTableViewCell.m */,
-				E98691BC249C5AA800685772 /* NewTuneInMainTableListCell.h */,
-				E98691BD249C5AA800685772 /* NewTuneInMusicDetailHead.h */,
-				E98691BE249C5AA800685772 /* NewTuneInCollectionViewCell.h */,
-				E98691BF249C5AA800685772 /* NewTuneInMusicDetailHead.xib */,
-				E98691C0249C5AA800685772 /* NewTuneInCollectionViewImageCell.m */,
-				E98691C1249C5AA800685772 /* NewTuneInCollectionViewImageCell.xib */,
-				E98691C2249C5AA800685772 /* NewTuneInMusicDetailHead.m */,
-				E98691C3249C5AA800685772 /* NewTuneInMainTableListCell.m */,
-				E98691C4249C5AA800685772 /* NewTuneInMainTableViewCell.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		E9869229249C621B00685772 /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -1185,69 +693,35 @@
 				E98691F2249C5AA800685772 /* LPAlexaSplashViewController.xib in Resources */,
 				E986911A249C5A6600685772 /* LPDeviceListTableViewCell.xib in Resources */,
 				E98691D3249C5AA800685772 /* AlarmClockAddViewController.xib in Resources */,
-				E986920B249C5AA800685772 /* NewTuneInBrowseDetailController.xib in Resources */,
-				E98691FA249C5AA800685772 /* TuneInPlayView.bundle in Resources */,
 				E9A561E624AC9BB400E1FE46 /* LPLocalMusicViewController.xib in Resources */,
-				E9869215249C5AA800685772 /* NewTuneInSettingController.xib in Resources */,
-				E9869219249C5AA800685772 /* NewTuneInMainController.xib in Resources */,
-				E91867A024AF0B99003039FC /* AmazonMusicSearchViewController.xib in Resources */,
-				E9869210249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.xib in Resources */,
-				E91867C424AF15A2003039FC /* LPMSAmazonMusic.bundle in Resources */,
-				E986921F249C5AA800685772 /* NewTuneInMusicDetailHead.xib in Resources */,
 				E98691DB249C5AA800685772 /* LPNASViewController.xib in Resources */,
 				E9138644249B9CDC008764AA /* LaunchScreen.storyboard in Resources */,
 				E98691D0249C5AA800685772 /* AlarmClockChooseRateViewController.xib in Resources */,
-				E91867AA24AF0B99003039FC /* AmazonSongsCollectionViewCell.xib in Resources */,
+				E92EA6E924B8995900E0D2FD /* LPPlayViewController.xib in Resources */,
+				E92EA6EB24B8995900E0D2FD /* LPDefaulePlayView.xib in Resources */,
 				E98691C9249C5AA800685772 /* LPMultiroomViewController.xib in Resources */,
 				E98691CA249C5AA800685772 /* PresetViewController.xib in Resources */,
 				E9869233249C621B00685772 /* MJRefresh.bundle in Resources */,
 				E98691D9249C5AA800685772 /* AlarmClockTableViewCell.xib in Resources */,
-				E91867A524AF0B99003039FC /* AmazonMusicSearchHistoryCell.xib in Resources */,
-				E9869209249C5AA800685772 /* NewTuneInSearchController.xib in Resources */,
 				E91866DC24AF08A7003039FC /* LPDeviceFunctionViewController.xib in Resources */,
 				E9138641249B9CDC008764AA /* Assets.xcassets in Resources */,
 				E98691F1249C5AA800685772 /* LPAlexaLoginViewController.xib in Resources */,
-				E91867AF24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.xib in Resources */,
-				E9869224249C5AA800685772 /* NewTuneInMusicDetailController.xib in Resources */,
-				E918679A24AF0B99003039FC /* AmazonMusicMainViewController.xib in Resources */,
 				E913863F249B9CDB008764AA /* Main.storyboard in Resources */,
 				E98691EE249C5AA800685772 /* LPPlayerViewController.xib in Resources */,
-				E9869200249C5AA800685772 /* NewTuneInFavoriteController.xib in Resources */,
-				E91867B524AF0B99003039FC /* AmazonMusicSettingTableViewCell.xib in Resources */,
 				E98691D7249C5AA800685772 /* AlarmClockMusicViewController.xib in Resources */,
-				E986920E249C5AA800685772 /* NewTuneInBrowseTableViewCell.xib in Resources */,
 				E98691D1249C5AA800685772 /* AlarmClockMainViewController.xib in Resources */,
-				E9869221249C5AA800685772 /* NewTuneInCollectionViewImageCell.xib in Resources */,
-				E918679824AF0B99003039FC /* LPDefaultPlayView.bundle in Resources */,
-				E986921C249C5AA800685772 /* NewTuneInMainTableListCell.xib in Resources */,
 				E98691E6249C5AA800685772 /* LPWiFiSetupViewController.xib in Resources */,
-				E9869208249C5AA800685772 /* NewTuneInSearchFirstCell.xib in Resources */,
-				E91867AB24AF0B99003039FC /* AmazonAlbumCollectionViewCell.xib in Resources */,
-				E91867B824AF0B99003039FC /* AmazonMusicSettingViewController.xib in Resources */,
-				E98691F9249C5AA800685772 /* TuneInPlayViewController.xib in Resources */,
-				E9869204249C5AA800685772 /* NewTuneInSearchSecondCell.xib in Resources */,
 				E98691DD249C5AA800685772 /* LPUSBViewController.xib in Resources */,
-				E986921D249C5AA800685772 /* NewTuneInCollectionViewCell.xib in Resources */,
-				E91867B024AF0B99003039FC /* AmazonSongsTableViewCell.xib in Resources */,
-				E986920C249C5AA800685772 /* NewTuneInBrowseController.xib in Resources */,
-				E9869207249C5AA800685772 /* NewTuneInSearchBarView.xib in Resources */,
 				E91867BB24AF111D003039FC /* Resource.xcassets in Resources */,
-				E91867B424AF0B99003039FC /* AmazonMusicSongListViewController.xib in Resources */,
-				E986920A249C5AA800685772 /* LPTuneIn.bundle in Resources */,
 				E98691E5249C5AA800685772 /* LPGetWiFiListViewController.xib in Resources */,
 				E98691F5249C5AA800685772 /* LPAlexaManagerViewController.xib in Resources */,
-				E91867B324AF0B99003039FC /* AmazonMusicSourceViewController.xib in Resources */,
 				E98691EA249C5AA800685772 /* LPUpdateViewController.xib in Resources */,
-				E91867A124AF0B99003039FC /* AmazonMusicSearchBarView.xib in Resources */,
 				E9A561E724AC9BB400E1FE46 /* song@2x.png in Resources */,
-				E918679524AF0B99003039FC /* LPDefaultPlayViewController.xib in Resources */,
-				E986921A249C5AA800685772 /* NewTuneInMoreViewController.xib in Resources */,
 				E98691EC249C5AA800685772 /* defaultcover@2x.png in Resources */,
 				E9869119249C5A6600685772 /* LPDeviceListViewController.xib in Resources */,
-				E91867C524AF15A2003039FC /* AmazonEmberDisplayCd_A_He.ttf in Resources */,
+				E92EA6EC24B8995900E0D2FD /* LPDefaultPlayView.bundle in Resources */,
 				E98691E3249C5AA800685772 /* LPBLESearchViewController.xib in Resources */,
 				E98691CD249C5AA800685772 /* BasicViewController.xib in Resources */,
-				E91867A824AF0B99003039FC /* LPAmazonMusicUI.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1314,89 +788,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98691F6249C5AA800685772 /* TuneInProgressSlider.m in Sources */,
-				E918679B24AF0B99003039FC /* AmazonMusicMainTableViewCell.m in Sources */,
-				E91867B924AF0B99003039FC /* AmazonMusicLoginController.m in Sources */,
-				E9869223249C5AA800685772 /* NewTuneInMainTableListCell.m in Sources */,
-				E918679724AF0B99003039FC /* LPDefaultPlayViewController.m in Sources */,
-				E9869211249C5AA800685772 /* NewTuneInBrowseTableViewCell.m in Sources */,
 				E98691CE249C5AA800685772 /* AlarmSourceObj.m in Sources */,
 				E98691E9249C5AA800685772 /* LPUpdateViewController.m in Sources */,
-				E98691F7249C5AA800685772 /* TuneInPlayViewController.m in Sources */,
-				E986920F249C5AA800685772 /* NewTuneInBrowseDetailTableViewCell.m in Sources */,
-				E91867B624AF0B99003039FC /* AmazonMusicSettingTableViewCell.m in Sources */,
-				E91867B124AF0B99003039FC /* AmazonAlbumCollectionViewCell.m in Sources */,
-				E91867AC24AF0B99003039FC /* AmazonSongsCollectionViewCell.m in Sources */,
-				E98691FF249C5AA800685772 /* NewTuneInMusicManager.m in Sources */,
-				E91867A224AF0B99003039FC /* AmazonMusicSearchBarView.m in Sources */,
-				E98691FD249C5AA800685772 /* NewTuneInMethod.m in Sources */,
+				E92EA6F224B89A0700E0D2FD /* LPProgressSlider.m in Sources */,
 				E913863C249B9CDB008764AA /* ViewController.m in Sources */,
 				E913866F249B9D82008764AA /* NSObject+FBKVOController.m in Sources */,
 				E98691D6249C5AA800685772 /* AlarmClockMusicViewController.m in Sources */,
+				E92EA6E824B8995900E0D2FD /* LPPlayViewController.m in Sources */,
 				E98691D2249C5AA800685772 /* AlarmClockChooseRateViewController.m in Sources */,
 				E9138636249B9CDB008764AA /* AppDelegate.m in Sources */,
-				E9869213249C5AA800685772 /* NewTuneInPremiumController.m in Sources */,
 				E98691D5249C5AA800685772 /* AlarmClockMainViewController.m in Sources */,
 				E9869234249C621B00685772 /* MJRefreshBaseView.m in Sources */,
 				E9138647249B9CDC008764AA /* main.m in Sources */,
 				E91866DB24AF08A7003039FC /* LPDeviceFunctionViewController.m in Sources */,
 				E98691F4249C5AA800685772 /* LPAlexaManagerViewController.m in Sources */,
-				E91867A324AF0B99003039FC /* AmazonSearchTableViewCell.m in Sources */,
-				E9869216249C5AA800685772 /* NewTuneInLoginViewController.m in Sources */,
-				E918679E24AF0B99003039FC /* AmazonMusicErrorView.m in Sources */,
-				E986921B249C5AA800685772 /* NewTuneInCollectionViewCell.m in Sources */,
 				E98691DA249C5AA800685772 /* LPNASViewController.m in Sources */,
 				E98691C8249C5AA800685772 /* LPMultiroomViewController.m in Sources */,
 				E9138670249B9D82008764AA /* FBKVOController.m in Sources */,
-				E9869222249C5AA800685772 /* NewTuneInMusicDetailHead.m in Sources */,
 				E98691CC249C5AA800685772 /* BasicViewController.m in Sources */,
-				E98691FC249C5AA800685772 /* UIButton+LZCategory.m in Sources */,
 				E9869232249C621B00685772 /* MJRefreshHeaderView.m in Sources */,
-				E918679924AF0B99003039FC /* AmazonMusicMainViewController.m in Sources */,
-				E986920D249C5AA800685772 /* NewTuneInBrowseController.m in Sources */,
-				E9869203249C5AA800685772 /* NewTuneInSearchBarView.m in Sources */,
 				E98691CB249C5AA800685772 /* PresetViewController.m in Sources */,
-				E91867AE24AF0B99003039FC /* AmazonSongsTableViewCell.m in Sources */,
-				E9869217249C5AA800685772 /* NewTuneInMusicDetailController.m in Sources */,
 				E98691E4249C5AA800685772 /* LPBLESearchViewController.m in Sources */,
 				E98691F0249C5AA800685772 /* LPAlexaSplashViewController.m in Sources */,
 				E9869116249C5A6600685772 /* LPDeviceListTableViewCell.m in Sources */,
-				E9869218249C5AA800685772 /* NewTuneInMainController.m in Sources */,
-				E91867A724AF0B99003039FC /* AmazonMusicSearchViewController.m in Sources */,
 				E9869115249C5A6600685772 /* DeviceKVOObject.m in Sources */,
-				E98691FE249C5AA800685772 /* NewTuneInMenuView.m in Sources */,
-				E9869201249C5AA800685772 /* NewTuneInFavoriteController.m in Sources */,
-				E9869212249C5AA800685772 /* NewTuneInBrowseDetailController.m in Sources */,
-				E918679F24AF0B99003039FC /* AmazonMusicMethod.m in Sources */,
-				E9869206249C5AA800685772 /* NewTuneInSearchSecondCell.m in Sources */,
+				E92EA6ED24B8995900E0D2FD /* LPPlayviewDissmissAnimation.m in Sources */,
 				E98691F3249C5AA800685772 /* LPAlexaLoginViewController.m in Sources */,
-				E9869225249C5AA800685772 /* NewTuneInMoreViewController.m in Sources */,
-				E91867B224AF0B99003039FC /* AmazonMusicSongListViewController.m in Sources */,
-				E9869214249C5AA800685772 /* NewTuneInSettingController.m in Sources */,
+				E92EA6F324B89A0700E0D2FD /* LPVolumeSlider.m in Sources */,
 				E98691EF249C5AA800685772 /* LPPlayerViewController.m in Sources */,
 				E9869235249C621B00685772 /* MJRefreshFooterView.m in Sources */,
-				E91867A624AF0B99003039FC /* AmazonMusicHistory.m in Sources */,
-				E918679C24AF0B99003039FC /* AmazonMusicNavigationSet.m in Sources */,
 				E98691CF249C5AA800685772 /* AlarmClockAddViewController.m in Sources */,
 				E98691D8249C5AA800685772 /* GlobalUI.m in Sources */,
-				E98691F8249C5AA800685772 /* TuneInVolumeSlider.m in Sources */,
-				E98691FB249C5AA800685772 /* NewTuneInNavigationBar.m in Sources */,
-				E9869205249C5AA800685772 /* NewTuneInSearchFirstCell.m in Sources */,
-				E91867B724AF0B99003039FC /* AmazonMusicSettingViewController.m in Sources */,
 				E9138639249B9CDB008764AA /* SceneDelegate.m in Sources */,
-				E91867A924AF0B99003039FC /* AmazonMusicSourceViewController.m in Sources */,
-				E9869202249C5AA800685772 /* NewTuneInSearchController.m in Sources */,
 				E9A561E524AC9BB400E1FE46 /* LPLocalMusicViewController.m in Sources */,
 				E98691DC249C5AA800685772 /* LPUSBViewController.m in Sources */,
 				E98691D4249C5AA800685772 /* AlarmClockTableViewCell.m in Sources */,
 				E98691E7249C5AA800685772 /* LPGetWiFiListViewController.m in Sources */,
-				E91867A424AF0B99003039FC /* AmazonMusicSearchHistoryCell.m in Sources */,
-				E91867AD24AF0B99003039FC /* AmazonPlaylistsCollectionViewCell.m in Sources */,
-				E9869220249C5AA800685772 /* NewTuneInCollectionViewImageCell.m in Sources */,
 				E9869114249C5A6600685772 /* LPDeviceListViewController.m in Sources */,
 				E98691E8249C5AA800685772 /* LPWiFiSetupViewController.m in Sources */,
-				E986921E249C5AA800685772 /* NewTuneInMainTableViewCell.m in Sources */,
-				E918679D24AF0B99003039FC /* AmazonMusicBoxManager.m in Sources */,
+				E92EA6EA24B8995900E0D2FD /* LPDefaulePlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

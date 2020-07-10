@@ -16,13 +16,7 @@
 #import "LPUpdateViewController.h"
 #import "LPLocalMusicViewController.h"
 
-#import "NewTuneInMusicManager.h"
-#import "NewTuneInMainController.h"
-#import "TuneInPlayViewController.h"
-
-#import "AmazonMusicMainViewController.h"
-#import "AmazonMusicLoginController.h"
-#import "LPDefaultPlayViewController.h"
+#import "LPPlayViewController.h"
 #import <LPMusicKit/LPUSBManager.h>
 #import "LPUSBViewController.h"
 
@@ -36,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.functionArray = @[@"Alarm",@"Alexa Alarm",@"Sleep timer",@"Alexa",@"Passthrough",@"Preset", @"Multiroom", @"NAS", @"OTA",@"TuneIn", @"iPhone media library"];
+    self.functionArray = @[@"Alarm",@"Alexa Alarm",@"Sleep timer",@"Alexa",@"Passthrough",@"Preset", @"Multiroom", @"NAS", @"OTA", @"iPhone media library"];
     
      __weak typeof(self) weakSelf = self;
     [[LPUSBManager sharedInstance] getUSBDiskStatusWithID:self.uuid completionHandler:^(BOOL isHaveUSB) {
@@ -47,21 +41,6 @@
             [weakSelf.tableView reloadData];
         }
     }];
-    
-    //初始化TuneIn
-    [[NewTuneInMusicManager shared] initLPMSTuneInSDK];
-    
-    //AmazonMusic 暂时只支持美国地区用户,以en_US来判断是否打开AmazonMusic.
-    NSString *regionCode = [[NSLocale currentLocale] objectForKey:NSLocaleIdentifier];
-    if ([regionCode rangeOfString:@"en_US"].location != NSNotFound)
-    {
-        NSMutableArray *functionArray = [[NSMutableArray alloc] initWithArray:self.functionArray];
-        [functionArray addObject:@"AmazonMusic"];
-        self.functionArray = [functionArray copy];
-        
-        //初始化AmazonMusic
-        [[AmazonMusicBoxManager shared] initAmazonMuiscSDK];
-    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -82,25 +61,12 @@
 - (void)showPlayViewButtonPressed {
     
     LPDevice *device = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
-    if ([device.mediaInfo.trackSource isEqualToString:NEW_TUNEIN_SOURCE]) {
-        TuneInPlayViewController *controller = [[TuneInPlayViewController alloc] init];
-        controller.deviceId = self.uuid;
-        controller.modalPresentationStyle = UIModalPresentationFullScreen;
-        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        [self presentViewController:controller animated:YES completion:nil];
-    }else if ([device.mediaInfo.trackSource isEqualToString:AMAZON_MUSIC_SOURCE]){
-        LPDefaultPlayViewController *controller = [[LPDefaultPlayViewController alloc] init];
-        controller.deviceId = self.uuid;
-        controller.modalPresentationStyle = UIModalPresentationFullScreen;
-        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        [self presentViewController:controller animated:YES completion:nil];
-    }else{
-        LPDefaultPlayViewController *controller = [[LPDefaultPlayViewController alloc] init];
-        controller.deviceId = self.uuid;
-        controller.modalPresentationStyle = UIModalPresentationFullScreen;
-        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        [self presentViewController:controller animated:YES completion:nil];
-    }
+    LPPlayViewController *controller = [[LPPlayViewController alloc] init];
+    controller.deviceId = self.uuid;
+    controller.source = device.mediaInfo.trackSource;
+    controller.modalPresentationStyle = UIModalPresentationFullScreen;
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 #pragma mark - tableview datasource & delegate
@@ -173,22 +139,6 @@
         [[device getPassthrough] connect];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(passthroughConnectionStateChanged:) name:LPPassthroughConnectionStateChanged object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(passThroughMessageCome:) name:LPPassThroughMessageCome object:nil];
-    }else if ([name isEqualToString:@"TuneIn"]){
-        [[NewTuneInMusicManager shared] updateDeviceId:self.uuid];
-        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        NewTuneInMainController *mainController = [[NewTuneInMainController alloc] init];
-        [self.navigationController pushViewController:mainController animated:YES];
-    }else if ([name isEqualToString:@"AmazonMusic"]){
-        
-        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        [[AmazonMusicBoxManager shared] updateDeviceId:self.uuid];
-        if ([AmazonMusicBoxManager shared].account) {
-            AmazonMusicMainViewController *mainController = [[AmazonMusicMainViewController alloc] init];
-            [self.navigationController pushViewController:mainController animated:YES];
-        }else{
-            AmazonMusicLoginController *mainController = [[AmazonMusicLoginController alloc] init];
-            [self.navigationController pushViewController:mainController animated:YES];
-        }
     }else if ([name isEqualToString:@"USB"]) {
         LPUSBViewController *controller = [[LPUSBViewController alloc] init];
         controller.uuid = self.uuid;

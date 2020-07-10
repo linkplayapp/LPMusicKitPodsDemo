@@ -9,12 +9,11 @@ target 'LPMusicKitDemo' do
   pod "LPBLESetupiOS", :git => "https://github.com/linkplayapp/LPBLESetupiOS.git"
   pod "LPMSNASiOS", :git => "https://github.com/linkplayapp/LPMSNASiOS.git"
   pod "LPMSMediaLibraryiOS", :git => "https://github.com/linkplayapp/LPMSMediaLibraryiOS.git"
-  pod "LPMSTuneIniOS", :git => "https://github.com/linkplayapp/LPMSTuneIniOS.git"
   pod "LPAlexaKitiOS", :git => "https://github.com/linkplayapp/LPAlexaKitiOS.git"
-  pod "LPMSAmazonMusiciOS", :git => "https://github.com/linkplayapp/LPMSAmazonMusiciOS.git"
-  
+
   
   # Third-party libraries used by Demo
+  pod "MBProgressHUD"
   pod "SDWebImage"
   pod 'Toast', '~> 4.0.0'
 

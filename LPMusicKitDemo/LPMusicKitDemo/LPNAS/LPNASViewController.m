@@ -11,7 +11,7 @@
 #import <LPMusicKit/LPDevicePlayer.h>
 #import <LPMusicKit/LPDeviceManager.h>
 #import <LPMDPKit/LPMDPKit.h>
-#import "LPDefaultPlayViewController.h"
+#import "LPPlayViewController.h"
 
 @interface LPNASViewController ()
 {
@@ -107,8 +107,9 @@
             [[device getPlayer] playAudioWithMusicDictionary:info completionHandler:^(BOOL isSuccess, NSString * _Nullable result) {
                 NSLog(@"");
                 if (isSuccess) {
-                    LPDefaultPlayViewController *controller = [[LPDefaultPlayViewController alloc] init];
+                    LPPlayViewController *controller = [[LPPlayViewController alloc] init];
                     controller.deviceId = self.uuid;
+                    controller.source = device.mediaInfo.trackSource;
                     controller.modalPresentationStyle = UIModalPresentationFullScreen;
                     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
                     [self presentViewController:controller animated:YES completion:nil];

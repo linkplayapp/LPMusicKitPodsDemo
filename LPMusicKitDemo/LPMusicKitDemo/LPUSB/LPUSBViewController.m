@@ -8,7 +8,7 @@
 
 #import "LPUSBViewController.h"
 #import <LPMusicKit/LPUSBManager.h>
-#import "LPDefaultPlayViewController.h"
+#import "LPPlayViewController.h"
 
 @interface LPUSBViewController ()
 
@@ -80,8 +80,11 @@
     self.musicListObj.index = (int)indexPath.row;
     [self.devicePlayer playUSBSongsWithIndex:(int)indexPath.row+1 completionHandler:^(BOOL isSuccess, NSString * _Nullable result) {
         if (isSuccess) {
-            LPDefaultPlayViewController *controller = [[LPDefaultPlayViewController alloc] init];
+            LPDevice *device = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
+            
+            LPPlayViewController *controller = [[LPPlayViewController alloc] init];
             controller.deviceId = self.uuid;
+            controller.source = device.mediaInfo.trackSource;
             controller.modalPresentationStyle = UIModalPresentationFullScreen;
             [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
             [self presentViewController:controller animated:YES completion:nil];
