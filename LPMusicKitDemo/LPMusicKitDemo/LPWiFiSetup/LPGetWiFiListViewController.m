@@ -88,13 +88,13 @@
     }
     
     
-    NSDictionary * apItem = [_wlanDetailsArray objectAtIndex:indexPath.row];
+    LPApItem * apItem = [_wlanDetailsArray objectAtIndex:indexPath.row];
     
-    NSString *ssid = [self SSIDHexStrToStr:[apItem objectForKey:@"ssid"]];
+    NSString *ssid = [self SSIDHexStrToStr:apItem.ssid];
     
-    NSString *encry = [apItem objectForKey:@"encry"];
+    NSString *encry = apItem.encry;
     
-    int rssi = [[apItem objectForKey:@"rssi"] intValue];
+    int rssi = [apItem.rssi intValue];
 
     UILabel * ssidLabel = [[UILabel alloc]initWithFrame:CGRectMake(30, 0, self.view.bounds.size.width - 160, 50)];
     ssidLabel.text = ssid;
