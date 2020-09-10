@@ -82,6 +82,8 @@
 		E9A561E524AC9BB400E1FE46 /* LPLocalMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A561E224AC9BB300E1FE46 /* LPLocalMusicViewController.m */; };
 		E9A561E624AC9BB400E1FE46 /* LPLocalMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A561E324AC9BB300E1FE46 /* LPLocalMusicViewController.xib */; };
 		E9A561E724AC9BB400E1FE46 /* song@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A561E424AC9BB300E1FE46 /* song@2x.png */; };
+		E9E61CDE250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E61CDC250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib */; };
+		E9E61CDF250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E61CDD250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,6 +229,9 @@
 		E9A561E324AC9BB300E1FE46 /* LPLocalMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPLocalMusicViewController.xib; sourceTree = "<group>"; };
 		E9A561E424AC9BB300E1FE46 /* song@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "song@2x.png"; sourceTree = "<group>"; };
 		E9E3236124FDEF8100B2FA1D /* LPMusicKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LPMusicKitDemo.entitlements; sourceTree = "<group>"; };
+		E9E61CDB250A024B004C89A0 /* LPDeviceFunctionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDeviceFunctionTableViewCell.h; sourceTree = "<group>"; };
+		E9E61CDC250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPDeviceFunctionTableViewCell.xib; sourceTree = "<group>"; };
+		E9E61CDD250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDeviceFunctionTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +314,9 @@
 				E91866D824AF08A6003039FC /* LPDeviceFunctionViewController.h */,
 				E91866D924AF08A7003039FC /* LPDeviceFunctionViewController.m */,
 				E91866DA24AF08A7003039FC /* LPDeviceFunctionViewController.xib */,
+				E9E61CDB250A024B004C89A0 /* LPDeviceFunctionTableViewCell.h */,
+				E9E61CDD250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m */,
+				E9E61CDC250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib */,
 				E986910E249C5A6600685772 /* LPDeviceListTableViewCell.h */,
 				E986910B249C5A6600685772 /* LPDeviceListTableViewCell.m */,
 				E9869112249C5A6600685772 /* LPDeviceListTableViewCell.xib */,
@@ -718,6 +726,7 @@
 				E98691E5249C5AA800685772 /* LPGetWiFiListViewController.xib in Resources */,
 				E98691F5249C5AA800685772 /* LPAlexaManagerViewController.xib in Resources */,
 				E98691EA249C5AA800685772 /* LPUpdateViewController.xib in Resources */,
+				E9E61CDE250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib in Resources */,
 				E9A561E724AC9BB400E1FE46 /* song@2x.png in Resources */,
 				E98691EC249C5AA800685772 /* defaultcover@2x.png in Resources */,
 				E9869119249C5A6600685772 /* LPDeviceListViewController.xib in Resources */,
@@ -813,6 +822,7 @@
 				E98691E4249C5AA800685772 /* LPBLESearchViewController.m in Sources */,
 				E98691F0249C5AA800685772 /* LPAlexaSplashViewController.m in Sources */,
 				E9869116249C5A6600685772 /* LPDeviceListTableViewCell.m in Sources */,
+				E9E61CDF250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m in Sources */,
 				E9869115249C5A6600685772 /* DeviceKVOObject.m in Sources */,
 				E92EA6ED24B8995900E0D2FD /* LPPlayviewDissmissAnimation.m in Sources */,
 				E98691F3249C5AA800685772 /* LPAlexaLoginViewController.m in Sources */,

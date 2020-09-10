@@ -15,6 +15,7 @@
 #import "LPNASViewController.h"
 #import "LPUpdateViewController.h"
 #import "LPLocalMusicViewController.h"
+#import "LPDeviceFunctionTableViewCell.h"
 
 #import "LPPlayViewController.h"
 #import <LPMusicKit/LPUSBManager.h>
@@ -23,6 +24,7 @@
 @interface LPDeviceFunctionViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *functionArray; /** SDK Demo 列表 */
+@property (nonatomic, strong) LPDevice *currentDevice;
 @end
 
 @implementation LPDeviceFunctionViewController
@@ -30,7 +32,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.functionArray = @[@"Alarm",@"Alexa Alarm",@"Sleep timer",@"Alexa",@"Passthrough",@"Preset", @"Multiroom", @"NAS", @"OTA", @"iPhone media library"];
+    self.functionArray = @[@"Alarm",@"Alexa Alarm",@"Sleep timer",@"Alexa",@"Passthrough",@"Preset", @"Multiroom", @"NAS", @"OTA", @"iPhone media library", @"Personal Hotspot", @"Password"];
+    self.currentDevice = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
     
      __weak typeof(self) weakSelf = self;
     [[LPUSBManager sharedInstance] getUSBDiskStatusWithID:self.uuid completionHandler:^(BOOL isHaveUSB) {
@@ -82,24 +85,22 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *kCellIdentifier = @"myCell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
-    
-    if (cell == nil)
-    {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];
+    static NSString *CellIdentifier = @"LPFunctionCell";
+    LPDeviceFunctionTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil){
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"LPDeviceFunctionTableViewCell" owner:self options:nil] lastObject];
     }
-    else
-    {
-        for (UIView *subView in cell.contentView.subviews)
-        {
-            [subView removeFromSuperview];
-        }
-    }
+    cell.backgroundColor = [UIColor clearColor];
     NSString *functionName = self.functionArray[indexPath.row];
-    cell.textLabel.text = functionName;
-    cell.textLabel.textAlignment = NSTextAlignmentCenter;
+    cell.titleLabel.text = functionName;
+    cell.switchButton.hidden = ![functionName isEqualToString:@"Personal Hotspot"];
+    cell.valueLabel.hidden = ![functionName isEqualToString:@"Password"];
+    cell.valueLabel.text = self.currentDevice.deviceStatus.password;
+    cell.switchButton.on = !self.currentDevice.deviceStatus.isSSIDHidden;
+    
+    [cell.switchButton addTarget:self action:@selector(switchAction:) forControlEvents:UIControlEventTouchUpInside];
+    cell.switchButton.tag = indexPath.row;
+    cell.switchButton.onTintColor = [UIColor redColor];
     return cell;
 }
 
@@ -148,6 +149,38 @@
         controller.uuid = self.uuid;
         [self.navigationController pushViewController:controller animated:YES];
     }
+}
+
+- (IBAction)switchAction:(id)sender
+{
+    UISwitch *switchButton = (UISwitch *)sender;
+    BOOL isHidden = !switchButton.on;
+    [self.currentDevice.deviceSettings hideSSID:isHidden completionHandler:^(NSURLResponse * _Nullable response, id  _Nullable responseObject, NSError * _Nullable error) {
+        if ([responseObject[@"result"] isEqualToString:@"OK"]) {
+             // If the device SSID has not set a password, you need to prompt the user to set a password
+            if (!isHidden) {
+                [self.currentDevice.deviceSettings setSSIDPassword:@"123456789" completionHandler:^(NSURLResponse * _Nullable response, id  _Nullable responseObject, NSError * _Nullable error) {
+                    if ([responseObject[@"result"] isEqualToString:@"OK"]) {
+                        [self.tableView reloadData];
+                    }else {
+                        NSLog(@"Failed to set SSID password");
+                        // Hide device SSID again
+                        [self hideSSID:YES];
+                    }
+                }];
+            }
+        }else {
+            //
+            [self.tableView reloadData];
+        }
+    }];
+
+}
+
+- (void)hideSSID:(BOOL)hide {
+    [self.currentDevice.deviceSettings hideSSID:hide completionHandler:^(NSURLResponse * _Nullable response, id  _Nullable responseObject, NSError * _Nullable error) {
+        [self.tableView reloadData];
+    }];
 }
 
 #pragma mark —————Passthrough—————
