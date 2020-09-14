@@ -78,7 +78,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     self.musicListObj.index = (int)indexPath.row;
-    [self.devicePlayer playUSBSongsWithIndex:(int)indexPath.row+1 completionHandler:^(BOOL isSuccess, NSString * _Nullable result) {
+    [self.devicePlayer playUSBSongsWithIndex:(int)indexPath.row completionHandler:^(BOOL isSuccess, NSString * _Nullable result) {
         if (isSuccess) {
             LPDevice *device = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
             
