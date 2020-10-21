@@ -18,6 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string></string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_linkplay._tcp</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -32,7 +38,7 @@
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>We need to access your Bluetooth</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>App needs to find your Wi-Fi network as location information. This app doesn't collect your actual location using GPS or Wi-Fi based positioning technologies.</string>
+	<string>App needs to find your Wi-Fi network as location information. This app doesn&apos;t collect your actual location using GPS or Wi-Fi based positioning technologies.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AmazonEmberDisplayCd_A_He.ttf</string>
