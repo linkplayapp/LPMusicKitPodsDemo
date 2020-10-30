@@ -701,9 +701,9 @@
     if(self.boxInfo.deviceInfo.playMode < LP_SHUFFLE)
     {
         int loopMode = ++self.boxInfo.deviceInfo.playMode;
-        [[self.boxInfo getPlayer] setPlayMode:loopMode];
+        [[self.boxInfo getPlayer] setPlayMode:loopMode completionHandler:nil];
     }else{
-        [[self.boxInfo getPlayer] setPlayMode:LP_LISTREPEAT];
+        [[self.boxInfo getPlayer] setPlayMode:LP_LISTREPEAT completionHandler:nil];
     }
 }
 
