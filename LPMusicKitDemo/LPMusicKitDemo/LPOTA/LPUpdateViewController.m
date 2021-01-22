@@ -37,7 +37,7 @@
 - (IBAction)checkOTAButtonPress:(id)sender {
     LPDevice *device = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
     LPDeviceOTA *ota = [device getOTA];
-    BOOL isHaveOTA = [ota checkUpdate];
+    isHaveOTA = [ota checkUpdate];
     ota.delegate = self;
     NSLog(@"Firmware version = %@", device.deviceStatus.firmware);
     NSLog(@"Firmware  New version = %@", device.deviceStatus.firmwareNewVersion);
@@ -75,14 +75,14 @@
         if (device.deviceStatus.isHaveInternet) {
             [ota firmwareStartUpdate:obj completionHandler:^(BOOL isSuccess, BOOL isTimeout) {
                 if (isSuccess) {
-                    NSLog(@"Update successed");
+                    NSLog(@"[OTA] Update successed");
                     self.OTAResultLabel.text = @"Update successed";
                 }else {
                     if (isTimeout) {
-                        NSLog(@"Timeout");
+                        NSLog(@"[OTA] Timeout");
                         self.OTAResultLabel.text = @"Timeout";
                     }else {
-                        NSLog(@"Upgrade failed");
+                        NSLog(@"[OTA] Upgrade failed");
                         self.OTAResultLabel.text = @"Upgrade failed";
                     }
                 }
@@ -99,13 +99,13 @@
         float recatoryPercent = percentObj.recatoryPercent/100;
         
         if (percentObj.firmwareOTAStatus == 1) {
-            NSLog(@"Download progress = %@",[NSString stringWithFormat:@"%f",downloadPrecent]);
+            NSLog(@"[OTA] Download progress = %@",[NSString stringWithFormat:@"%f",downloadPrecent]);
         }else if (percentObj.firmwareOTAStatus == 3) {
-            NSLog(@"Upgrade progress = %@",[NSString stringWithFormat:@"%f",upgradePercent]);
+            NSLog(@"[OTA] Upgrade progress = %@",[NSString stringWithFormat:@"%f",upgradePercent]);
         }else if (percentObj.firmwareOTAStatus == 6) {
-            NSLog(@"Recatory progress = %@",[NSString stringWithFormat:@"%f",recatoryPercent]);
+            NSLog(@"[OTA] Recatory progress = %@",[NSString stringWithFormat:@"%f",recatoryPercent]);
         }
-
+        NSLog(@"[OTA] total progress = %@",[NSString stringWithFormat:@"%f",percentObj.totalPercent]);
     });
     
 }
