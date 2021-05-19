@@ -23,7 +23,7 @@
     
     self.title = @"Alexa Login";
     // Do any additional setup after loading the view from its nib.
-    LPAlexaLoginView *loginView = [[LPAlexaLoginView alloc] initAlexaLoginViewWithFrame:[UIScreen mainScreen].bounds device:self.device isBeta:NO];
+    LPAlexaLoginView *loginView = [[LPAlexaLoginView alloc] initAlexaLoginViewWithFrame:[UIScreen mainScreen].bounds device:self.device isBeta:NO betaString:@""];
     loginView.delegate = self;
     [self.view addSubview:loginView];
 }
