@@ -10,12 +10,24 @@ target 'LPMusicKitDemo' do
   pod "LPMSNASiOS", :git => "https://github.com/linkplayapp/LPMSNASiOS.git"
   pod "LPMSMediaLibraryiOS", :git => "https://github.com/linkplayapp/LPMSMediaLibraryiOS.git"
   pod "LPAlexaKitiOS", :git => "https://github.com/linkplayapp/LPAlexaKitiOS.git"
+  pod "LPMSTuneIniOS", :git => "https://github.com/linkplayapp/LPMSTuneIniOS.git"
 
   
   # Third-party libraries used by Demo
   pod "MBProgressHUD"
   pod "SDWebImage"
+  pod "Masonry"
   pod 'Toast', '~> 4.0.0'
 
-
+  # 加入这些配置
+  post_install do |installer|
+      installer.pods_project.targets.each do |target|
+          if target.name == "Masonry"
+              target.build_configurations.each do |config|
+                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+              end
+          end
+      end
+  end
+  
 end

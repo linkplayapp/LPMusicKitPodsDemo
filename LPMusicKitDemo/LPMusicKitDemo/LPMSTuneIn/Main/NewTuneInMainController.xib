@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewTuneInMainController">
+            <connections>
+                <outlet property="backImage" destination="aX0-7e-ylD" id="Mmm-WY-Lwm"/>
+                <outlet property="tableView" destination="Wta-A1-Gr0" id="ero-wp-dSZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aX0-7e-ylD">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Wta-A1-Gr0">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="R3p-ES-Bcs"/>
+                        <outlet property="delegate" destination="-1" id="vYE-md-nib"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="tBo-9o-dom"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tBo-9o-dom" firstAttribute="bottom" secondItem="Wta-A1-Gr0" secondAttribute="bottom" id="1Hd-KE-FZN"/>
+                <constraint firstItem="Wta-A1-Gr0" firstAttribute="top" secondItem="tBo-9o-dom" secondAttribute="top" id="25h-Nd-d5o"/>
+                <constraint firstItem="aX0-7e-ylD" firstAttribute="top" secondItem="tBo-9o-dom" secondAttribute="top" id="3mH-q0-oNW"/>
+                <constraint firstItem="Wta-A1-Gr0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SgA-cL-wjE"/>
+                <constraint firstAttribute="trailing" secondItem="aX0-7e-ylD" secondAttribute="trailing" id="Uya-n7-NYB"/>
+                <constraint firstAttribute="trailing" secondItem="Wta-A1-Gr0" secondAttribute="trailing" id="ikr-su-E8f"/>
+                <constraint firstItem="tBo-9o-dom" firstAttribute="bottom" secondItem="aX0-7e-ylD" secondAttribute="bottom" id="vDk-UY-ql4"/>
+                <constraint firstItem="aX0-7e-ylD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vwr-dB-9zG"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="-220" y="142"/>
+        </view>
+    </objects>
+</document>

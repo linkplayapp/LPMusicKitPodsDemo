@@ -18,5 +18,9 @@
 
 #import "MBProgressHUD.h"
 #import "UIView+Toast.h"
+#import <Masonry/Masonry.h>
+
+#define LOCALSTRING(string) NSLocalizedString(string, nil)
+#define CURBOX [GlobalUI sharedInstance].currentBox
 
 #endif /* LPMusicKitDemo_h */

@@ -29,20 +29,6 @@
     //backColor
     self.view.backgroundColor = [UIColor colorWithRed:20/255.0 green:20/255.0 blue:20/255.0 alpha:1.0];
     
-    //navigation
-    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-    self.navigationController.navigationBar.hidden = NO;
-    self.navigationController.navigationItem.hidesBackButton = YES;
-    
-    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:28/255.0 green:27/255.0 blue:32/255.0 alpha:1];
-    self.navigationController.navigationBar.translucent = NO;
-    
-    UIImage *image = nil;//global_titlebar
-    image = [UIImage imageNamed:@"navigationBarDefaultBg"];
-    image = [image stretchableImageWithLeftCapWidth:floorf(image.size.width/2) topCapHeight:0];
-    [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-    
     //backBut
     if([self isNavigationBackEnabled] == YES)
     {
@@ -83,6 +69,14 @@
     [self.KVOController unobserveAll];
     [self KVO];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    NSString *className = NSStringFromClass([self class]);
+    NSLog(@"[UI] =========================== page=%@", className);
 }
 
 -(void)KVO

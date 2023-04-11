@@ -8,6 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		D5ABD60042DA5A4CD8ED2DDD /* libPods-LPMusicKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5ADF98C38B873BDD787636 /* libPods-LPMusicKitDemo.a */; };
+		DF690C9229D45190002A8001 /* NewTuneInBrowseDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C3429D45190002A8001 /* NewTuneInBrowseDetailController.xib */; };
+		DF690C9329D45190002A8001 /* NewTuneInBrowseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C3529D45190002A8001 /* NewTuneInBrowseController.xib */; };
+		DF690C9429D45190002A8001 /* NewTuneInBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C3629D45190002A8001 /* NewTuneInBrowseController.m */; };
+		DF690C9529D45190002A8001 /* NewTuneInBrowseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C3B29D45190002A8001 /* NewTuneInBrowseModel.m */; };
+		DF690C9629D45190002A8001 /* NewTuneInItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C3C29D45190002A8001 /* NewTuneInItemModel.m */; };
+		DF690C9729D45190002A8001 /* NewTuneInBrowseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C3E29D45190002A8001 /* NewTuneInBrowseTableViewCell.xib */; };
+		DF690C9829D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C3F29D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.m */; };
+		DF690C9929D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C4129D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.xib */; };
+		DF690C9A29D45190002A8001 /* NewTuneInBrowseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C4329D45190002A8001 /* NewTuneInBrowseTableViewCell.m */; };
+		DF690C9B29D45190002A8001 /* NewTuneInBrowseDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C4529D45190002A8001 /* NewTuneInBrowseDetailController.m */; };
+		DF690C9C29D45190002A8001 /* NewTuneInSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C4729D45190002A8001 /* NewTuneInSearchController.m */; };
+		DF690C9D29D45190002A8001 /* LPTuneInSearchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C4829D45190002A8001 /* LPTuneInSearchHistory.m */; };
+		DF690C9E29D45190002A8001 /* NewTuneInSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C4D29D45190002A8001 /* NewTuneInSearchBarView.m */; };
+		DF690C9F29D45190002A8001 /* NewTuneInSearchSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C4E29D45190002A8001 /* NewTuneInSearchSecondCell.xib */; };
+		DF690CA029D45190002A8001 /* NewTuneInSearchFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C4F29D45190002A8001 /* NewTuneInSearchFirstCell.m */; };
+		DF690CA129D45190002A8001 /* NewTuneInSearchSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C5029D45190002A8001 /* NewTuneInSearchSecondCell.m */; };
+		DF690CA229D45190002A8001 /* NewTuneInSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C5129D45190002A8001 /* NewTuneInSearchBarView.xib */; };
+		DF690CA329D45190002A8001 /* NewTuneInSearchFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C5229D45190002A8001 /* NewTuneInSearchFirstCell.xib */; };
+		DF690CA429D45190002A8001 /* NewTuneInSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C5529D45190002A8001 /* NewTuneInSearchController.xib */; };
+		DF690CA529D45190002A8001 /* NewTuneInPremiumController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C5729D45190002A8001 /* NewTuneInPremiumController.m */; };
+		DF690CA629D45190002A8001 /* NewTuneInSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C5829D45190002A8001 /* NewTuneInSettingController.m */; };
+		DF690CA729D45190002A8001 /* NewTuneInSettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C5A29D45190002A8001 /* NewTuneInSettingController.xib */; };
+		DF690CA829D45190002A8001 /* NewTuneInLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C5D29D45190002A8001 /* NewTuneInLoginViewController.m */; };
+		DF690CA929D45190002A8001 /* NewTuneInPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C6129D45190002A8001 /* NewTuneInPublicMethod.m */; };
+		DF690CAA29D45190002A8001 /* NewTuneInNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C6629D45190002A8001 /* NewTuneInNavigationBar.m */; };
+		DF690CAC29D45190002A8001 /* LPTuneIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF690C6829D45190002A8001 /* LPTuneIn.bundle */; };
+		DF690CAD29D45190002A8001 /* UIButton+LZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C6929D45190002A8001 /* UIButton+LZCategory.m */; };
+		DF690CAE29D45190002A8001 /* NewTuneInMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C6A29D45190002A8001 /* NewTuneInMenuView.m */; };
+		DF690CB329D45191002A8001 /* NewTuneInMusicDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C7329D45190002A8001 /* NewTuneInMusicDetailController.m */; };
+		DF690CB429D45191002A8001 /* NewTuneInMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C7429D45190002A8001 /* NewTuneInMainController.m */; };
+		DF690CB529D45191002A8001 /* NewTuneInMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C7629D45190002A8001 /* NewTuneInMainController.xib */; };
+		DF690CB629D45191002A8001 /* NewTuneInMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C7729D45190002A8001 /* NewTuneInMoreViewController.xib */; };
+		DF690CB729D45191002A8001 /* NewTuneInMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C7A29D45190002A8001 /* NewTuneInMainModel.m */; };
+		DF690CB829D45191002A8001 /* NewTuneInCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C7D29D45190002A8001 /* NewTuneInCollectionViewCell.m */; };
+		DF690CB929D45191002A8001 /* NewTuneInMainTableListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C7E29D45190002A8001 /* NewTuneInMainTableListCell.xib */; };
+		DF690CBA29D45191002A8001 /* NewTuneInCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C8029D45190002A8001 /* NewTuneInCollectionViewCell.xib */; };
+		DF690CBB29D45191002A8001 /* NewTuneInMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C8129D45190002A8001 /* NewTuneInMainTableViewCell.m */; };
+		DF690CBC29D45191002A8001 /* NewTuneInMusicDetailHead.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C8529D45190002A8001 /* NewTuneInMusicDetailHead.xib */; };
+		DF690CBD29D45191002A8001 /* NewTuneInCollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C8629D45190002A8001 /* NewTuneInCollectionViewImageCell.m */; };
+		DF690CBE29D45191002A8001 /* NewTuneInCollectionViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C8729D45190002A8001 /* NewTuneInCollectionViewImageCell.xib */; };
+		DF690CBF29D45191002A8001 /* NewTuneInMusicDetailHead.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C8829D45190002A8001 /* NewTuneInMusicDetailHead.m */; };
+		DF690CC029D45191002A8001 /* NewTuneInMainTableListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C8929D45190002A8001 /* NewTuneInMainTableListCell.m */; };
+		DF690CC129D45191002A8001 /* NewTuneInMusicDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C8C29D45190002A8001 /* NewTuneInMusicDetailController.xib */; };
+		DF690CC229D45191002A8001 /* NewTuneInMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C8D29D45190002A8001 /* NewTuneInMoreViewController.m */; };
+		DF690CC329D45191002A8001 /* NewTuneInFavoriteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690C8F29D45190002A8001 /* NewTuneInFavoriteController.xib */; };
+		DF690CC429D45191002A8001 /* NewTuneInFavoriteController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690C9129D45190002A8001 /* NewTuneInFavoriteController.m */; };
+		DF690CCB29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF690CC929D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.m */; };
+		DF690CCC29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF690CCA29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.xib */; };
+		DF690CD329D681ED002A8001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF690CD529D681ED002A8001 /* Localizable.strings */; };
 		E9138636249B9CDB008764AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9138635249B9CDB008764AA /* AppDelegate.m */; };
 		E9138639249B9CDB008764AA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9138638249B9CDB008764AA /* SceneDelegate.m */; };
 		E913863C249B9CDB008764AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913863B249B9CDB008764AA /* ViewController.m */; };
@@ -107,6 +156,85 @@
 		2F5ADF98C38B873BDD787636 /* libPods-LPMusicKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LPMusicKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2301E069EE71F739F6F68C /* Pods-LPMusicKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPMusicKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-LPMusicKitDemo/Pods-LPMusicKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		84EC6FF688242BA6E7AA50AA /* Pods-LPMusicKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPMusicKitDemo.release.xcconfig"; path = "Target Support Files/Pods-LPMusicKitDemo/Pods-LPMusicKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF690C3429D45190002A8001 /* NewTuneInBrowseDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseDetailController.xib; sourceTree = "<group>"; };
+		DF690C3529D45190002A8001 /* NewTuneInBrowseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseController.xib; sourceTree = "<group>"; };
+		DF690C3629D45190002A8001 /* NewTuneInBrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseController.m; sourceTree = "<group>"; };
+		DF690C3729D45190002A8001 /* NewTuneInBrowseDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseDetailController.h; sourceTree = "<group>"; };
+		DF690C3929D45190002A8001 /* NewTuneInBrowseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseModel.h; sourceTree = "<group>"; };
+		DF690C3A29D45190002A8001 /* NewTuneInItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInItemModel.h; sourceTree = "<group>"; };
+		DF690C3B29D45190002A8001 /* NewTuneInBrowseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseModel.m; sourceTree = "<group>"; };
+		DF690C3C29D45190002A8001 /* NewTuneInItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInItemModel.m; sourceTree = "<group>"; };
+		DF690C3E29D45190002A8001 /* NewTuneInBrowseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseTableViewCell.xib; sourceTree = "<group>"; };
+		DF690C3F29D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseDetailTableViewCell.m; sourceTree = "<group>"; };
+		DF690C4029D45190002A8001 /* NewTuneInBrowseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseTableViewCell.h; sourceTree = "<group>"; };
+		DF690C4129D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInBrowseDetailTableViewCell.xib; sourceTree = "<group>"; };
+		DF690C4229D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseDetailTableViewCell.h; sourceTree = "<group>"; };
+		DF690C4329D45190002A8001 /* NewTuneInBrowseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseTableViewCell.m; sourceTree = "<group>"; };
+		DF690C4429D45190002A8001 /* NewTuneInBrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInBrowseController.h; sourceTree = "<group>"; };
+		DF690C4529D45190002A8001 /* NewTuneInBrowseDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInBrowseDetailController.m; sourceTree = "<group>"; };
+		DF690C4729D45190002A8001 /* NewTuneInSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchController.m; sourceTree = "<group>"; };
+		DF690C4829D45190002A8001 /* LPTuneInSearchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTuneInSearchHistory.m; sourceTree = "<group>"; };
+		DF690C4929D45190002A8001 /* LPTuneInSearchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTuneInSearchHistory.h; sourceTree = "<group>"; };
+		DF690C4A29D45190002A8001 /* NewTuneInSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchController.h; sourceTree = "<group>"; };
+		DF690C4C29D45190002A8001 /* NewTuneInSearchSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchSecondCell.h; sourceTree = "<group>"; };
+		DF690C4D29D45190002A8001 /* NewTuneInSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchBarView.m; sourceTree = "<group>"; };
+		DF690C4E29D45190002A8001 /* NewTuneInSearchSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchSecondCell.xib; sourceTree = "<group>"; };
+		DF690C4F29D45190002A8001 /* NewTuneInSearchFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchFirstCell.m; sourceTree = "<group>"; };
+		DF690C5029D45190002A8001 /* NewTuneInSearchSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSearchSecondCell.m; sourceTree = "<group>"; };
+		DF690C5129D45190002A8001 /* NewTuneInSearchBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchBarView.xib; sourceTree = "<group>"; };
+		DF690C5229D45190002A8001 /* NewTuneInSearchFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchFirstCell.xib; sourceTree = "<group>"; };
+		DF690C5329D45190002A8001 /* NewTuneInSearchFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchFirstCell.h; sourceTree = "<group>"; };
+		DF690C5429D45190002A8001 /* NewTuneInSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSearchBarView.h; sourceTree = "<group>"; };
+		DF690C5529D45190002A8001 /* NewTuneInSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSearchController.xib; sourceTree = "<group>"; };
+		DF690C5729D45190002A8001 /* NewTuneInPremiumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInPremiumController.m; sourceTree = "<group>"; };
+		DF690C5829D45190002A8001 /* NewTuneInSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInSettingController.m; sourceTree = "<group>"; };
+		DF690C5929D45190002A8001 /* NewTuneInLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInLoginViewController.h; sourceTree = "<group>"; };
+		DF690C5A29D45190002A8001 /* NewTuneInSettingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInSettingController.xib; sourceTree = "<group>"; };
+		DF690C5B29D45190002A8001 /* NewTuneInSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInSettingController.h; sourceTree = "<group>"; };
+		DF690C5C29D45190002A8001 /* NewTuneInPremiumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInPremiumController.h; sourceTree = "<group>"; };
+		DF690C5D29D45190002A8001 /* NewTuneInLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInLoginViewController.m; sourceTree = "<group>"; };
+		DF690C6029D45190002A8001 /* NewTuneInNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInNavigationBar.h; sourceTree = "<group>"; };
+		DF690C6129D45190002A8001 /* NewTuneInPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInPublicMethod.m; sourceTree = "<group>"; };
+		DF690C6229D45190002A8001 /* NewTuneInMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMenuView.h; sourceTree = "<group>"; };
+		DF690C6329D45190002A8001 /* UIButton+LZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LZCategory.h"; sourceTree = "<group>"; };
+		DF690C6429D45190002A8001 /* NewTuneInConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInConfig.h; sourceTree = "<group>"; };
+		DF690C6529D45190002A8001 /* NewTuneInPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInPublicMethod.h; sourceTree = "<group>"; };
+		DF690C6629D45190002A8001 /* NewTuneInNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInNavigationBar.m; sourceTree = "<group>"; };
+		DF690C6829D45190002A8001 /* LPTuneIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LPTuneIn.bundle; sourceTree = "<group>"; };
+		DF690C6929D45190002A8001 /* UIButton+LZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LZCategory.m"; sourceTree = "<group>"; };
+		DF690C6A29D45190002A8001 /* NewTuneInMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMenuView.m; sourceTree = "<group>"; };
+		DF690C7329D45190002A8001 /* NewTuneInMusicDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMusicDetailController.m; sourceTree = "<group>"; };
+		DF690C7429D45190002A8001 /* NewTuneInMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainController.m; sourceTree = "<group>"; };
+		DF690C7529D45190002A8001 /* NewTuneInMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMoreViewController.h; sourceTree = "<group>"; };
+		DF690C7629D45190002A8001 /* NewTuneInMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMainController.xib; sourceTree = "<group>"; };
+		DF690C7729D45190002A8001 /* NewTuneInMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMoreViewController.xib; sourceTree = "<group>"; };
+		DF690C7829D45190002A8001 /* NewTuneInMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainController.h; sourceTree = "<group>"; };
+		DF690C7A29D45190002A8001 /* NewTuneInMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainModel.m; sourceTree = "<group>"; };
+		DF690C7B29D45190002A8001 /* NewTuneInMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainModel.h; sourceTree = "<group>"; };
+		DF690C7D29D45190002A8001 /* NewTuneInCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInCollectionViewCell.m; sourceTree = "<group>"; };
+		DF690C7E29D45190002A8001 /* NewTuneInMainTableListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMainTableListCell.xib; sourceTree = "<group>"; };
+		DF690C7F29D45190002A8001 /* NewTuneInCollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInCollectionViewImageCell.h; sourceTree = "<group>"; };
+		DF690C8029D45190002A8001 /* NewTuneInCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInCollectionViewCell.xib; sourceTree = "<group>"; };
+		DF690C8129D45190002A8001 /* NewTuneInMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainTableViewCell.m; sourceTree = "<group>"; };
+		DF690C8229D45190002A8001 /* NewTuneInMainTableListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainTableListCell.h; sourceTree = "<group>"; };
+		DF690C8329D45190002A8001 /* NewTuneInMusicDetailHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMusicDetailHead.h; sourceTree = "<group>"; };
+		DF690C8429D45190002A8001 /* NewTuneInCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInCollectionViewCell.h; sourceTree = "<group>"; };
+		DF690C8529D45190002A8001 /* NewTuneInMusicDetailHead.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMusicDetailHead.xib; sourceTree = "<group>"; };
+		DF690C8629D45190002A8001 /* NewTuneInCollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInCollectionViewImageCell.m; sourceTree = "<group>"; };
+		DF690C8729D45190002A8001 /* NewTuneInCollectionViewImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInCollectionViewImageCell.xib; sourceTree = "<group>"; };
+		DF690C8829D45190002A8001 /* NewTuneInMusicDetailHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMusicDetailHead.m; sourceTree = "<group>"; };
+		DF690C8929D45190002A8001 /* NewTuneInMainTableListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMainTableListCell.m; sourceTree = "<group>"; };
+		DF690C8A29D45190002A8001 /* NewTuneInMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMainTableViewCell.h; sourceTree = "<group>"; };
+		DF690C8B29D45190002A8001 /* NewTuneInMusicDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInMusicDetailController.h; sourceTree = "<group>"; };
+		DF690C8C29D45190002A8001 /* NewTuneInMusicDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInMusicDetailController.xib; sourceTree = "<group>"; };
+		DF690C8D29D45190002A8001 /* NewTuneInMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInMoreViewController.m; sourceTree = "<group>"; };
+		DF690C8F29D45190002A8001 /* NewTuneInFavoriteController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTuneInFavoriteController.xib; sourceTree = "<group>"; };
+		DF690C9029D45190002A8001 /* NewTuneInFavoriteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTuneInFavoriteController.h; sourceTree = "<group>"; };
+		DF690C9129D45190002A8001 /* NewTuneInFavoriteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTuneInFavoriteController.m; sourceTree = "<group>"; };
+		DF690CC829D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTuneInSearchHistoryTableViewCell.h; sourceTree = "<group>"; };
+		DF690CC929D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTuneInSearchHistoryTableViewCell.m; sourceTree = "<group>"; };
+		DF690CCA29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPTuneInSearchHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		DF690CD429D681ED002A8001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E9138631249B9CDB008764AA /* LPMusicKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPMusicKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9138634249B9CDB008764AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9138635249B9CDB008764AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -277,6 +405,179 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DF690BA029D44421002A8001 /* LPMSTuneIn */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C3329D45190002A8001 /* Browse */,
+				DF690C5E29D45190002A8001 /* Config */,
+				DF690C8E29D45190002A8001 /* Favorite */,
+				DF690C7229D45190002A8001 /* Main */,
+				DF690C4629D45190002A8001 /* Search */,
+				DF690C5629D45190002A8001 /* Setting */,
+			);
+			path = LPMSTuneIn;
+			sourceTree = "<group>";
+		};
+		DF690C3329D45190002A8001 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C3429D45190002A8001 /* NewTuneInBrowseDetailController.xib */,
+				DF690C3529D45190002A8001 /* NewTuneInBrowseController.xib */,
+				DF690C3629D45190002A8001 /* NewTuneInBrowseController.m */,
+				DF690C3729D45190002A8001 /* NewTuneInBrowseDetailController.h */,
+				DF690C3829D45190002A8001 /* Model */,
+				DF690C3D29D45190002A8001 /* View */,
+				DF690C4429D45190002A8001 /* NewTuneInBrowseController.h */,
+				DF690C4529D45190002A8001 /* NewTuneInBrowseDetailController.m */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		DF690C3829D45190002A8001 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C3929D45190002A8001 /* NewTuneInBrowseModel.h */,
+				DF690C3A29D45190002A8001 /* NewTuneInItemModel.h */,
+				DF690C3B29D45190002A8001 /* NewTuneInBrowseModel.m */,
+				DF690C3C29D45190002A8001 /* NewTuneInItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF690C3D29D45190002A8001 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C3E29D45190002A8001 /* NewTuneInBrowseTableViewCell.xib */,
+				DF690C3F29D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.m */,
+				DF690C4029D45190002A8001 /* NewTuneInBrowseTableViewCell.h */,
+				DF690C4129D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.xib */,
+				DF690C4229D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.h */,
+				DF690C4329D45190002A8001 /* NewTuneInBrowseTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF690C4629D45190002A8001 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DF690CC829D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.h */,
+				DF690CC929D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.m */,
+				DF690CCA29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.xib */,
+				DF690C4729D45190002A8001 /* NewTuneInSearchController.m */,
+				DF690C4829D45190002A8001 /* LPTuneInSearchHistory.m */,
+				DF690C4929D45190002A8001 /* LPTuneInSearchHistory.h */,
+				DF690C4A29D45190002A8001 /* NewTuneInSearchController.h */,
+				DF690C4B29D45190002A8001 /* View */,
+				DF690C5529D45190002A8001 /* NewTuneInSearchController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DF690C4B29D45190002A8001 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C4C29D45190002A8001 /* NewTuneInSearchSecondCell.h */,
+				DF690C4D29D45190002A8001 /* NewTuneInSearchBarView.m */,
+				DF690C4E29D45190002A8001 /* NewTuneInSearchSecondCell.xib */,
+				DF690C4F29D45190002A8001 /* NewTuneInSearchFirstCell.m */,
+				DF690C5029D45190002A8001 /* NewTuneInSearchSecondCell.m */,
+				DF690C5129D45190002A8001 /* NewTuneInSearchBarView.xib */,
+				DF690C5229D45190002A8001 /* NewTuneInSearchFirstCell.xib */,
+				DF690C5329D45190002A8001 /* NewTuneInSearchFirstCell.h */,
+				DF690C5429D45190002A8001 /* NewTuneInSearchBarView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF690C5629D45190002A8001 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C5729D45190002A8001 /* NewTuneInPremiumController.m */,
+				DF690C5829D45190002A8001 /* NewTuneInSettingController.m */,
+				DF690C5929D45190002A8001 /* NewTuneInLoginViewController.h */,
+				DF690C5A29D45190002A8001 /* NewTuneInSettingController.xib */,
+				DF690C5B29D45190002A8001 /* NewTuneInSettingController.h */,
+				DF690C5C29D45190002A8001 /* NewTuneInPremiumController.h */,
+				DF690C5D29D45190002A8001 /* NewTuneInLoginViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DF690C5E29D45190002A8001 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C6029D45190002A8001 /* NewTuneInNavigationBar.h */,
+				DF690C6129D45190002A8001 /* NewTuneInPublicMethod.m */,
+				DF690C6229D45190002A8001 /* NewTuneInMenuView.h */,
+				DF690C6329D45190002A8001 /* UIButton+LZCategory.h */,
+				DF690C6429D45190002A8001 /* NewTuneInConfig.h */,
+				DF690C6529D45190002A8001 /* NewTuneInPublicMethod.h */,
+				DF690C6629D45190002A8001 /* NewTuneInNavigationBar.m */,
+				DF690C6829D45190002A8001 /* LPTuneIn.bundle */,
+				DF690C6929D45190002A8001 /* UIButton+LZCategory.m */,
+				DF690C6A29D45190002A8001 /* NewTuneInMenuView.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DF690C7229D45190002A8001 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C7329D45190002A8001 /* NewTuneInMusicDetailController.m */,
+				DF690C7429D45190002A8001 /* NewTuneInMainController.m */,
+				DF690C7529D45190002A8001 /* NewTuneInMoreViewController.h */,
+				DF690C7629D45190002A8001 /* NewTuneInMainController.xib */,
+				DF690C7729D45190002A8001 /* NewTuneInMoreViewController.xib */,
+				DF690C7829D45190002A8001 /* NewTuneInMainController.h */,
+				DF690C7929D45190002A8001 /* Model */,
+				DF690C7C29D45190002A8001 /* View */,
+				DF690C8B29D45190002A8001 /* NewTuneInMusicDetailController.h */,
+				DF690C8C29D45190002A8001 /* NewTuneInMusicDetailController.xib */,
+				DF690C8D29D45190002A8001 /* NewTuneInMoreViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DF690C7929D45190002A8001 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C7A29D45190002A8001 /* NewTuneInMainModel.m */,
+				DF690C7B29D45190002A8001 /* NewTuneInMainModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF690C7C29D45190002A8001 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C7D29D45190002A8001 /* NewTuneInCollectionViewCell.m */,
+				DF690C7E29D45190002A8001 /* NewTuneInMainTableListCell.xib */,
+				DF690C7F29D45190002A8001 /* NewTuneInCollectionViewImageCell.h */,
+				DF690C8029D45190002A8001 /* NewTuneInCollectionViewCell.xib */,
+				DF690C8129D45190002A8001 /* NewTuneInMainTableViewCell.m */,
+				DF690C8229D45190002A8001 /* NewTuneInMainTableListCell.h */,
+				DF690C8329D45190002A8001 /* NewTuneInMusicDetailHead.h */,
+				DF690C8429D45190002A8001 /* NewTuneInCollectionViewCell.h */,
+				DF690C8529D45190002A8001 /* NewTuneInMusicDetailHead.xib */,
+				DF690C8629D45190002A8001 /* NewTuneInCollectionViewImageCell.m */,
+				DF690C8729D45190002A8001 /* NewTuneInCollectionViewImageCell.xib */,
+				DF690C8829D45190002A8001 /* NewTuneInMusicDetailHead.m */,
+				DF690C8929D45190002A8001 /* NewTuneInMainTableListCell.m */,
+				DF690C8A29D45190002A8001 /* NewTuneInMainTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF690C8E29D45190002A8001 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				DF690C8F29D45190002A8001 /* NewTuneInFavoriteController.xib */,
+				DF690C9029D45190002A8001 /* NewTuneInFavoriteController.h */,
+				DF690C9129D45190002A8001 /* NewTuneInFavoriteController.m */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
 		E9138628249B9CDB008764AA = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +625,7 @@
 				E9869109249C5A6600685772 /* LPDeviceListViewController.m */,
 				E986910F249C5A6600685772 /* LPDeviceListViewController.xib */,
 				E92EA6DC24B898FD00E0D2FD /* LPBasicHeader.h */,
+				DF690BA029D44421002A8001 /* LPMSTuneIn */,
 				E92EA6D124B897E900E0D2FD /* LPPlayview */,
 				E9869144249C5AA700685772 /* LocalMusic */,
 				E9869166249C5AA700685772 /* LPAlexa */,
@@ -344,6 +646,7 @@
 				E9138645249B9CDC008764AA /* Info.plist */,
 				E9138646249B9CDC008764AA /* main.m */,
 				E9869226249C5C7A00685772 /* LPMusicKitDemo.pch */,
+				DF690CD529D681ED002A8001 /* Localizable.strings */,
 			);
 			path = LPMusicKitDemo;
 			sourceTree = "<group>";
@@ -702,14 +1005,24 @@
 				E98691ED249C5AA800685772 /* defaultcover@3x.png in Resources */,
 				E98691F2249C5AA800685772 /* LPAlexaSplashViewController.xib in Resources */,
 				E986911A249C5A6600685772 /* LPDeviceListTableViewCell.xib in Resources */,
+				DF690CA329D45190002A8001 /* NewTuneInSearchFirstCell.xib in Resources */,
+				DF690CBA29D45191002A8001 /* NewTuneInCollectionViewCell.xib in Resources */,
+				DF690C9229D45190002A8001 /* NewTuneInBrowseDetailController.xib in Resources */,
 				E98691D3249C5AA800685772 /* AlarmClockAddViewController.xib in Resources */,
+				DF690CB529D45191002A8001 /* NewTuneInMainController.xib in Resources */,
+				DF690C9329D45190002A8001 /* NewTuneInBrowseController.xib in Resources */,
+				DF690CC129D45191002A8001 /* NewTuneInMusicDetailController.xib in Resources */,
 				E9A561E624AC9BB400E1FE46 /* LPLocalMusicViewController.xib in Resources */,
 				E98691DB249C5AA800685772 /* LPNASViewController.xib in Resources */,
+				DF690CBC29D45191002A8001 /* NewTuneInMusicDetailHead.xib in Resources */,
 				E9138644249B9CDC008764AA /* LaunchScreen.storyboard in Resources */,
 				E98691D0249C5AA800685772 /* AlarmClockChooseRateViewController.xib in Resources */,
 				E92EA6E924B8995900E0D2FD /* LPPlayViewController.xib in Resources */,
 				E92EA6EB24B8995900E0D2FD /* LPDefaulePlayView.xib in Resources */,
+				DF690CB629D45191002A8001 /* NewTuneInMoreViewController.xib in Resources */,
+				DF690CCC29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.xib in Resources */,
 				E98691C9249C5AA800685772 /* LPMultiroomViewController.xib in Resources */,
+				DF690C9729D45190002A8001 /* NewTuneInBrowseTableViewCell.xib in Resources */,
 				E98691CA249C5AA800685772 /* PresetViewController.xib in Resources */,
 				E9869233249C621B00685772 /* MJRefresh.bundle in Resources */,
 				E98691D9249C5AA800685772 /* AlarmClockTableViewCell.xib in Resources */,
@@ -717,18 +1030,28 @@
 				E9138641249B9CDC008764AA /* Assets.xcassets in Resources */,
 				E98691F1249C5AA800685772 /* LPAlexaLoginViewController.xib in Resources */,
 				E913863F249B9CDB008764AA /* Main.storyboard in Resources */,
+				DF690C9F29D45190002A8001 /* NewTuneInSearchSecondCell.xib in Resources */,
+				DF690CA229D45190002A8001 /* NewTuneInSearchBarView.xib in Resources */,
+				DF690CB929D45191002A8001 /* NewTuneInMainTableListCell.xib in Resources */,
+				DF690CD329D681ED002A8001 /* Localizable.strings in Resources */,
 				E98691EE249C5AA800685772 /* LPPlayerViewController.xib in Resources */,
+				DF690C9929D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.xib in Resources */,
 				E98691D7249C5AA800685772 /* AlarmClockMusicViewController.xib in Resources */,
 				E98691D1249C5AA800685772 /* AlarmClockMainViewController.xib in Resources */,
+				DF690CC329D45191002A8001 /* NewTuneInFavoriteController.xib in Resources */,
 				E98691E6249C5AA800685772 /* LPWiFiSetupViewController.xib in Resources */,
 				E98691DD249C5AA800685772 /* LPUSBViewController.xib in Resources */,
+				DF690CAC29D45190002A8001 /* LPTuneIn.bundle in Resources */,
 				E91867BB24AF111D003039FC /* Resource.xcassets in Resources */,
 				E98691E5249C5AA800685772 /* LPGetWiFiListViewController.xib in Resources */,
 				E98691F5249C5AA800685772 /* LPAlexaManagerViewController.xib in Resources */,
 				E98691EA249C5AA800685772 /* LPUpdateViewController.xib in Resources */,
 				E9E61CDE250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib in Resources */,
 				E9A561E724AC9BB400E1FE46 /* song@2x.png in Resources */,
+				DF690CBE29D45191002A8001 /* NewTuneInCollectionViewImageCell.xib in Resources */,
 				E98691EC249C5AA800685772 /* defaultcover@2x.png in Resources */,
+				DF690CA429D45190002A8001 /* NewTuneInSearchController.xib in Resources */,
+				DF690CA729D45190002A8001 /* NewTuneInSettingController.xib in Resources */,
 				E9869119249C5A6600685772 /* LPDeviceListViewController.xib in Resources */,
 				E92EA6EC24B8995900E0D2FD /* LPDefaultPlayView.bundle in Resources */,
 				E98691E3249C5AA800685772 /* LPBLESearchViewController.xib in Resources */,
@@ -799,15 +1122,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF690C9829D45190002A8001 /* NewTuneInBrowseDetailTableViewCell.m in Sources */,
+				DF690C9E29D45190002A8001 /* NewTuneInSearchBarView.m in Sources */,
 				E98691CE249C5AA800685772 /* AlarmSourceObj.m in Sources */,
+				DF690CC429D45191002A8001 /* NewTuneInFavoriteController.m in Sources */,
 				E98691E9249C5AA800685772 /* LPUpdateViewController.m in Sources */,
+				DF690CBF29D45191002A8001 /* NewTuneInMusicDetailHead.m in Sources */,
 				E92EA6F224B89A0700E0D2FD /* LPProgressSlider.m in Sources */,
+				DF690CAA29D45190002A8001 /* NewTuneInNavigationBar.m in Sources */,
+				DF690C9429D45190002A8001 /* NewTuneInBrowseController.m in Sources */,
 				E913863C249B9CDB008764AA /* ViewController.m in Sources */,
+				DF690CA629D45190002A8001 /* NewTuneInSettingController.m in Sources */,
+				DF690CAD29D45190002A8001 /* UIButton+LZCategory.m in Sources */,
 				E913866F249B9D82008764AA /* NSObject+FBKVOController.m in Sources */,
+				DF690CB829D45191002A8001 /* NewTuneInCollectionViewCell.m in Sources */,
+				DF690C9A29D45190002A8001 /* NewTuneInBrowseTableViewCell.m in Sources */,
 				E98691D6249C5AA800685772 /* AlarmClockMusicViewController.m in Sources */,
+				DF690C9D29D45190002A8001 /* LPTuneInSearchHistory.m in Sources */,
+				DF690CA529D45190002A8001 /* NewTuneInPremiumController.m in Sources */,
 				E92EA6E824B8995900E0D2FD /* LPPlayViewController.m in Sources */,
+				DF690CC229D45191002A8001 /* NewTuneInMoreViewController.m in Sources */,
+				DF690CB329D45191002A8001 /* NewTuneInMusicDetailController.m in Sources */,
 				E98691D2249C5AA800685772 /* AlarmClockChooseRateViewController.m in Sources */,
+				DF690CBD29D45191002A8001 /* NewTuneInCollectionViewImageCell.m in Sources */,
 				E9138636249B9CDB008764AA /* AppDelegate.m in Sources */,
+				DF690CA829D45190002A8001 /* NewTuneInLoginViewController.m in Sources */,
 				E98691D5249C5AA800685772 /* AlarmClockMainViewController.m in Sources */,
 				E9869234249C621B00685772 /* MJRefreshBaseView.m in Sources */,
 				E9138647249B9CDC008764AA /* main.m in Sources */,
@@ -815,18 +1154,29 @@
 				E98691F4249C5AA800685772 /* LPAlexaManagerViewController.m in Sources */,
 				E98691DA249C5AA800685772 /* LPNASViewController.m in Sources */,
 				E98691C8249C5AA800685772 /* LPMultiroomViewController.m in Sources */,
+				DF690CA929D45190002A8001 /* NewTuneInPublicMethod.m in Sources */,
 				E9138670249B9D82008764AA /* FBKVOController.m in Sources */,
 				E98691CC249C5AA800685772 /* BasicViewController.m in Sources */,
 				E9869232249C621B00685772 /* MJRefreshHeaderView.m in Sources */,
 				E98691CB249C5AA800685772 /* PresetViewController.m in Sources */,
+				DF690CB729D45191002A8001 /* NewTuneInMainModel.m in Sources */,
+				DF690C9629D45190002A8001 /* NewTuneInItemModel.m in Sources */,
+				DF690CA129D45190002A8001 /* NewTuneInSearchSecondCell.m in Sources */,
+				DF690CCB29D53CAA002A8001 /* LPTuneInSearchHistoryTableViewCell.m in Sources */,
 				E98691E4249C5AA800685772 /* LPBLESearchViewController.m in Sources */,
+				DF690CB429D45191002A8001 /* NewTuneInMainController.m in Sources */,
 				E98691F0249C5AA800685772 /* LPAlexaSplashViewController.m in Sources */,
+				DF690C9B29D45190002A8001 /* NewTuneInBrowseDetailController.m in Sources */,
 				E9869116249C5A6600685772 /* LPDeviceListTableViewCell.m in Sources */,
 				E9E61CDF250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m in Sources */,
 				E9869115249C5A6600685772 /* DeviceKVOObject.m in Sources */,
+				DF690CA029D45190002A8001 /* NewTuneInSearchFirstCell.m in Sources */,
 				E92EA6ED24B8995900E0D2FD /* LPPlayviewDissmissAnimation.m in Sources */,
+				DF690C9C29D45190002A8001 /* NewTuneInSearchController.m in Sources */,
 				E98691F3249C5AA800685772 /* LPAlexaLoginViewController.m in Sources */,
 				E92EA6F324B89A0700E0D2FD /* LPVolumeSlider.m in Sources */,
+				DF690CC029D45191002A8001 /* NewTuneInMainTableListCell.m in Sources */,
+				DF690CBB29D45191002A8001 /* NewTuneInMainTableViewCell.m in Sources */,
 				E98691EF249C5AA800685772 /* LPPlayerViewController.m in Sources */,
 				E9869235249C621B00685772 /* MJRefreshFooterView.m in Sources */,
 				E98691CF249C5AA800685772 /* AlarmClockAddViewController.m in Sources */,
@@ -837,8 +1187,10 @@
 				E98691D4249C5AA800685772 /* AlarmClockTableViewCell.m in Sources */,
 				E98691E7249C5AA800685772 /* LPGetWiFiListViewController.m in Sources */,
 				E9869114249C5A6600685772 /* LPDeviceListViewController.m in Sources */,
+				DF690C9529D45190002A8001 /* NewTuneInBrowseModel.m in Sources */,
 				E98691E8249C5AA800685772 /* LPWiFiSetupViewController.m in Sources */,
 				E92EA6EA24B8995900E0D2FD /* LPDefaulePlayView.m in Sources */,
+				DF690CAE29D45190002A8001 /* NewTuneInMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,6 +1226,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DF690CD529D681ED002A8001 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF690CD429D681ED002A8001 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E913863D249B9CDB008764AA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  LPMusicKitDemo
+
+  Created by Shuai Zhao on 2023/3/31.
+  Copyright © 2023 sunyu. All rights reserved.
+*/
+
+// newtuneIn
+"newtuneIn_Login_failed"="Login failed";
+"newtuneIn_Login_successful"="Login successful";
+"newtuneIn_Cancel"="Cancel";
+"newtuneIn_Location"="Location";
+"newtuneIn_more"="more";
+"newtuneIn_This_content_cannot_be_played_"="This content cannot be played.";
+"newtuneIn_This_show_will_be_available_later__Please_come_back_then_"="This show will be available later. Please come back then.";
+"newtuneIn_Favorite"="Favorite";
+"newtuneIn_Less"="Less";
+"newtuneIn_No_results"="No results";
+"newtuneIn_Unfavorite"="Unfavorite";
+"newtuneIn_Favorites_Success"="Favorites Success";
+"newtuneIn_Favorites_Fail"="Favorites Fail";
+"newtuneIn_Removed_Favorite_Fail"="Removed Favorite Fail";
+"newtuneIn_Removed_Favorite_Successfully"="Removed Favorite Successfully";
+"newtuneIn_Favorites_is_empty"="Favorites is empty";
+"newtuneIn_Premium_opt_in_failed"="Premium opt-in failed";
+"newtuneIn_Browse"="Browse";
+"newtuneIn_Home"="Home";
+"newtuneIn_Setting"="Setting";
+"newtuneIn_Fail"="Fail";
+"newtuneIn_OK"="OK";
+"newtuneIn_logout"="Logout";
+"newtuneIn_login"="Login";
+"newtuneIn_Premium"="Premium";
+"newtuneIn_Search"="Search";
+"newtuneIn_Search_for_stations__podcasts__or_events"="Search for stations, podcasts, or events";
+"newtuneIn_No_Results_found_for"="No Results found for";
+"newtuneIn_Log_out_fail__Please_try_again_"="Log out failed, Please try again.";
+"newtuneIn_Would_you_like_to_log_out_"="Would you like to log out?";
+"newtuneIn_Time_out"="Time out";
+"newtuneIn_Prompt"="Prompt";
+"newtuneIn_TuneIn_account_has_been_changed"="TuneIn account has been changed";
+"newtuneIn_Favorites"="Favorites";
+"newtuneIn_name"="tuneIn";
+"newtuneIn_Logout_Fail"="Logout Fail";
+"newtuneIn_Time"="Time";
+"newtuneIn_loading___"="loading...";
+"newtuneIn_This_content_can__t_play"="This content can't play";
+"newtuneIn_Now_can__t_play_please_choose_others"="Now can't play，please choose others";
+"newtuneIn_TuneIn_account_has_logout"="TuneIn account has logged out";
+"newtuneIn_Remove_all_history"="Remove all history";
+

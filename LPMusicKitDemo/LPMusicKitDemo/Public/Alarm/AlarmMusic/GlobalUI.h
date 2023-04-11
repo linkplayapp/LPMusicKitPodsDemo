@@ -11,13 +11,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class LPDevice;
+
 @interface GlobalUI : NSObject
 
 + (instancetype)sharedInstance;
 
 // alarm clock
 @property (retain) AlarmSourceObj * alarmSourceObj;
-
+@property (strong,nonatomic) LPDevice * currentBox;
 
 @end
 

@@ -128,6 +128,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     LPDevice *device = self.deviceListArray[indexPath.row];
+    [GlobalUI sharedInstance].currentBox = device;
     
     LPDeviceFunctionViewController *controller = [[LPDeviceFunctionViewController alloc] init];
     controller.uuid = device.deviceStatus.UUID;

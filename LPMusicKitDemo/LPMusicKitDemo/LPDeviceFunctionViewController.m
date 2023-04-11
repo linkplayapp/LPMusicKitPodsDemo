@@ -20,6 +20,8 @@
 #import "LPPlayViewController.h"
 #import <LPMusicKit/LPUSBManager.h>
 #import "LPUSBViewController.h"
+#import "NewTuneInMainController.h"
+#import "NewTuneInPublicMethod.h"
 
 @interface LPDeviceFunctionViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -32,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.functionArray = @[@"Alarm",@"Alexa Alarm",@"Sleep timer",@"Alexa",@"Passthrough",@"Preset", @"Multiroom", @"NAS", @"OTA", @"iPhone media library", @"Personal Hotspot", @"Password"];
+    self.functionArray = @[@"Alarm",@"Alexa Alarm",@"Sleep timer",@"Alexa",@"Passthrough",@"Preset", @"Multiroom", @"NAS", @"OTA", @"iPhone media library", @"Personal Hotspot", @"Password", @"TuneIn"];
     self.currentDevice = [[LPDeviceManager sharedInstance] deviceForID:self.uuid];
     
      __weak typeof(self) weakSelf = self;
@@ -148,7 +150,25 @@
         LPLocalMusicViewController *controller = [[LPLocalMusicViewController alloc] init];
         controller.uuid = self.uuid;
         [self.navigationController pushViewController:controller animated:YES];
+    }else if ([name isEqualToString:@"TuneIn"]) {
+        
+        id<LPMediaSourceProtocol> deviceProtocal = [[LPMediaSourceAction alloc] init];
+        [[LPMDPKitManager shared] initDeviceActionObject:deviceProtocal];
+        
+        __weak typeof(self) weakSelf = self;
+        NSString *uuid = CURBOX.deviceInfo.soundBoxIdentity;
+        
+        [[NewTuneInPublicMethod shared] startLocationCheck];
+        [[NewTuneInPublicMethod shared] bindingDeviceWithDeviceId:uuid block:^(int ret) {
+            if (ret == 0) {
+                NewTuneInMainController *vc = [[NewTuneInMainController alloc]init];
+                [self.navigationController pushViewController:vc animated:YES];
+            }else{
+                
+            }
+        }];
     }
+
 }
 
 - (IBAction)switchAction:(id)sender

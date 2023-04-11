@@ -61,19 +61,15 @@
         trackSource = self.source;
     }
     
-    //TuneIn
-    if ([trackSource isEqualToString:NEW_TUNEIN_SOURCE]) {
-        return;
-    }else{
-        self.playView = [[[NSBundle mainBundle] loadNibNamed:@"LPDefaulePlayView" owner:self options:nil] lastObject];
-        self.playView.frame = self.view.frame;
-        self.playView.deviceId = self.deviceId;
-        self.playView.playViewcontroller = self;
-        [self.view addSubview:self.playView];
-        [self.playView refreshUI];
-        
-        [self addGestureRecognizerWithView:self.playView];
-    }
+
+    self.playView = [[[NSBundle mainBundle] loadNibNamed:@"LPDefaulePlayView" owner:self options:nil] lastObject];
+    self.playView.frame = self.view.frame;
+    self.playView.deviceId = self.deviceId;
+    self.playView.playViewcontroller = self;
+    [self.view addSubview:self.playView];
+    [self.playView refreshUI];
+    
+    [self addGestureRecognizerWithView:self.playView];
 }
 
 - (void)addGestureRecognizerWithView:(UIView *)contentView
