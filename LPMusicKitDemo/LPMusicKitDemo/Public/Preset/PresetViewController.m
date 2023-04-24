@@ -125,7 +125,7 @@
         imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"devicemanage_devicecontents_0%02d",(int)indexPath.row+1]];
     }
     
-    if ([header.headTitle length] > 0 && !self.isAddPreset && !self.isAddAlarmClock) {
+    if ([header.headTitle length] > 0 && !self.isAddAlarmClock) {
         UIButton *deleteButton = [[UIButton alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - 74, 8, 64, 44)];
         [cell.contentView addSubview:deleteButton];
         [deleteButton setTitle:@"Delete" forState:UIControlStateNormal];
@@ -145,29 +145,44 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
     if (self.isAddPreset) {
-        LPPlayMusicList *musicList = [[LPPlayMusicList alloc] init];
-        musicList.header = self.header;
-        musicList.list = @[self.item];
-        musicList.index = (int)indexPath.row;
-        musicList.account = self.account;
-        
-        NSDictionary *presetDict = [[LPMDPKitManager shared] updataPresetDataWithPlayMusicList:musicList devicePresetList:self.keyArray];
         LPDevice *device =[[LPDeviceManager sharedInstance] deviceForID:self.deviceId];
-        LPDevicePreset *devicePreset = device.getPreset;
-        
-        [self showHud:@""];
-        [devicePreset setPresetWithInfomation:presetDict completionHandler:^(BOOL isSuccess) {
+        if ([device.mediaInfo.mediaType isEqualToString:@"SPOTIFY"]) {
+            LPPlayMusicList *musicList = [[LPPlayMusicList alloc] init];
+            LPPlayHeader *header = [[LPPlayHeader alloc] init];
             
-             dispatch_async(dispatch_get_main_queue(), ^{
-                 [self hideHud:isSuccess ? @"Success":@"Fail" afterDelay:2 type:MBProgressHUDModeIndeterminate];
-                 
-                 if (isSuccess) {
-                     [self getPresetStatus];
-                 }
-             });
-        }];
+            header.headTitle = device.mediaInfo.artist;
+            if (device.mediaInfo.subStationID.length > 0) {
+                header.headTitle = device.mediaInfo.subStationID;
+            }
+            header.imageUrl = device.mediaInfo.artworkUri;
+            header.mediaType = device.mediaInfo.mediaType;
+            header.mediaSource = device.mediaInfo.mediaType;
+            
+            LPPlayItem *playItem = [[LPPlayItem alloc] init];
+            playItem.trackImage = device.mediaInfo.artworkUri;
+            playItem.trackName = header.headTitle;
+            playItem.trackId = [NSString stringWithFormat:@"%d", (int)indexPath.row];
+
+            musicList.header = header;
+            musicList.list = @[playItem];
+            musicList.index = (int)indexPath.row;
+            musicList.account = self.account;
+
+            NSDictionary *presetDict = [[LPMDPKitManager shared] updataPresetDataWithPlayMusicList:musicList devicePresetList:self.keyArray];
+            LPDevicePreset *devicePreset = device.getPreset;
+            [self showHud:@""];
+            [devicePreset setPresetWithInfomation:presetDict completionHandler:^(BOOL isSuccess) {
+                 dispatch_async(dispatch_get_main_queue(), ^{
+                     [self hideHud:isSuccess ? @"Success":@"Fail" afterDelay:2 type:MBProgressHUDModeIndeterminate];
+
+                     if (isSuccess) {
+                         [self getPresetStatus];
+                     }
+                 });
+            }];
+        }
+       
     }else if (self.isAddAlarmClock){
         
         LPPlayMusicList *musicList = self.keyArray[indexPath.row];
@@ -210,8 +225,17 @@
 - (void)deleteButtonAction:(UIButton *)action
 {
     int index = (int)action.tag - 1000;
+    NSArray *deleteIndexArray = @[@(1),@(2),@(3)];
+    // If you need to delete more than one, just replace the data in the preset list keyArray with empty
+    NSMutableArray *deletePresetArray = [NSMutableArray arrayWithArray:self.keyArray];
+    for (NSNumber *number in deleteIndexArray) {
+        int deleteIndex = [number intValue];
+        LPPlayMusicList *list = deletePresetArray[deleteIndex];
+        list.header = [[LPPlayHeader alloc] init];
+    }
+    // The first index selected by the user
     NSDictionary *presetDict = [[LPMDPKitManager shared] deletePresetDataWithIndex:index devicePresetList:self.keyArray];
-    
+    NSLog(@"presetDict = %@", presetDict);
     [self showHud:@""];
     LPDevice *device =[[LPDeviceManager sharedInstance] deviceForID:self.deviceId];
     LPDevicePreset *devicePreset = device.getPreset;
@@ -223,6 +247,8 @@
             }
         });
     }];
+
+
 }
 
 #pragma mark -privateMethods

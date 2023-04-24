@@ -124,6 +124,7 @@
     if ([name isEqualToString:@"Preset"]) {
         PresetViewController *controller = [[PresetViewController alloc] init];
         controller.deviceId = self.uuid;
+        controller.isAddPreset = YES;
         [self.navigationController pushViewController:controller animated:YES];
     }else if ([name isEqualToString:@"Multiroom"]) {
         LPMultiroomViewController *controller = [[LPMultiroomViewController alloc] init];

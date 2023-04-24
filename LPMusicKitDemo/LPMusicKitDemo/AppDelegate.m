@@ -19,6 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     if (@available(iOS 13,*)) {
+        self.window.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
         return YES;
     } else {
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

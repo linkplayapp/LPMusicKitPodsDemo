@@ -10,6 +10,7 @@
 #import <LPBLESetupKit/LPBLESetupKit.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import "MBProgressHUD.h"
+#import "LPOtherWiFiViewController.h"
 
 @interface LPBLESearchViewController ()<LPBLEManagerDelegate>
 {
@@ -121,6 +122,11 @@
                     
                 }]];
                 
+                [alertController addAction:[UIAlertAction actionWithTitle:@"Other Network" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                    [self pushOtherNetworkViewController];
+                    
+                }]];
+                
                 [self presentViewController:alertController animated:true completion:nil];
             });
         }else {
@@ -128,6 +134,11 @@
             [MBProgressHUD hideHUDForView:self.view animated:YES];
         }
     }];
+}
+
+- (void)pushOtherNetworkViewController {
+    LPOtherWiFiViewController *controller = [[LPOtherWiFiViewController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)startConnectWithPassword:(NSString *)password {

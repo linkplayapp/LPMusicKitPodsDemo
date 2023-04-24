@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LPWiFiSecuritySelectViewController">
+            <connections>
+                <outlet property="bgImageView" destination="4LC-oB-k0C" id="pa5-Op-sCs"/>
+                <outlet property="tableView" destination="QQZ-Ii-pUY" id="CRc-KK-vyy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4LC-oB-k0C">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QQZ-Ii-pUY">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="UEB-XW-D6W"/>
+                        <outlet property="delegate" destination="-1" id="dD7-vG-n28"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="QQZ-Ii-pUY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3Rh-Kf-tGP"/>
+                <constraint firstAttribute="bottom" secondItem="QQZ-Ii-pUY" secondAttribute="bottom" id="AZB-kn-zFT"/>
+                <constraint firstItem="QQZ-Ii-pUY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="-44" id="IS9-j5-OKm"/>
+                <constraint firstItem="4LC-oB-k0C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MaT-HP-GgU"/>
+                <constraint firstItem="4LC-oB-k0C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Vsh-Yu-SWL"/>
+                <constraint firstAttribute="trailing" secondItem="4LC-oB-k0C" secondAttribute="trailing" id="WKp-5s-IPV"/>
+                <constraint firstAttribute="bottom" secondItem="4LC-oB-k0C" secondAttribute="bottom" id="ddZ-37-qzi"/>
+                <constraint firstAttribute="trailing" secondItem="QQZ-Ii-pUY" secondAttribute="trailing" id="v7J-G0-w0A"/>
+            </constraints>
+            <point key="canvasLocation" x="93" y="116"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

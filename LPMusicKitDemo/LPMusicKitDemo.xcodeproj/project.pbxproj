@@ -133,6 +133,10 @@
 		E9A561E724AC9BB400E1FE46 /* song@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A561E424AC9BB300E1FE46 /* song@2x.png */; };
 		E9E61CDE250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E61CDC250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib */; };
 		E9E61CDF250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E61CDD250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m */; };
+		E9F87A4C29F68558002FD6C6 /* LPOtherWiFiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F87A4929F68557002FD6C6 /* LPOtherWiFiViewController.m */; };
+		E9F87A4D29F68558002FD6C6 /* LPOtherWiFiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F87A4B29F68558002FD6C6 /* LPOtherWiFiViewController.xib */; };
+		E9F87A5129F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F87A4E29F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.m */; };
+		E9F87A5229F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F87A5029F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -360,6 +364,12 @@
 		E9E61CDB250A024B004C89A0 /* LPDeviceFunctionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDeviceFunctionTableViewCell.h; sourceTree = "<group>"; };
 		E9E61CDC250A024B004C89A0 /* LPDeviceFunctionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPDeviceFunctionTableViewCell.xib; sourceTree = "<group>"; };
 		E9E61CDD250A024B004C89A0 /* LPDeviceFunctionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDeviceFunctionTableViewCell.m; sourceTree = "<group>"; };
+		E9F87A4929F68557002FD6C6 /* LPOtherWiFiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPOtherWiFiViewController.m; sourceTree = "<group>"; };
+		E9F87A4A29F68557002FD6C6 /* LPOtherWiFiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPOtherWiFiViewController.h; sourceTree = "<group>"; };
+		E9F87A4B29F68558002FD6C6 /* LPOtherWiFiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPOtherWiFiViewController.xib; sourceTree = "<group>"; };
+		E9F87A4E29F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWiFiSecuritySelectViewController.m; sourceTree = "<group>"; };
+		E9F87A4F29F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPWiFiSecuritySelectViewController.h; sourceTree = "<group>"; };
+		E9F87A5029F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPWiFiSecuritySelectViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -820,6 +830,12 @@
 				E986914F249C5AA700685772 /* LPBLESearchViewController.xib */,
 				E9869150249C5AA700685772 /* LPBLESearchViewController.h */,
 				E9869151249C5AA700685772 /* LPBLESearchViewController.m */,
+				E9F87A4A29F68557002FD6C6 /* LPOtherWiFiViewController.h */,
+				E9F87A4929F68557002FD6C6 /* LPOtherWiFiViewController.m */,
+				E9F87A4B29F68558002FD6C6 /* LPOtherWiFiViewController.xib */,
+				E9F87A4F29F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.h */,
+				E9F87A4E29F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.m */,
+				E9F87A5029F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.xib */,
 			);
 			path = LPBLE;
 			sourceTree = "<group>";
@@ -1004,6 +1020,7 @@
 			files = (
 				E98691ED249C5AA800685772 /* defaultcover@3x.png in Resources */,
 				E98691F2249C5AA800685772 /* LPAlexaSplashViewController.xib in Resources */,
+				E9F87A4D29F68558002FD6C6 /* LPOtherWiFiViewController.xib in Resources */,
 				E986911A249C5A6600685772 /* LPDeviceListTableViewCell.xib in Resources */,
 				DF690CA329D45190002A8001 /* NewTuneInSearchFirstCell.xib in Resources */,
 				DF690CBA29D45191002A8001 /* NewTuneInCollectionViewCell.xib in Resources */,
@@ -1026,6 +1043,7 @@
 				E98691CA249C5AA800685772 /* PresetViewController.xib in Resources */,
 				E9869233249C621B00685772 /* MJRefresh.bundle in Resources */,
 				E98691D9249C5AA800685772 /* AlarmClockTableViewCell.xib in Resources */,
+				E9F87A5229F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.xib in Resources */,
 				E91866DC24AF08A7003039FC /* LPDeviceFunctionViewController.xib in Resources */,
 				E9138641249B9CDC008764AA /* Assets.xcassets in Resources */,
 				E98691F1249C5AA800685772 /* LPAlexaLoginViewController.xib in Resources */,
@@ -1127,6 +1145,7 @@
 				E98691CE249C5AA800685772 /* AlarmSourceObj.m in Sources */,
 				DF690CC429D45191002A8001 /* NewTuneInFavoriteController.m in Sources */,
 				E98691E9249C5AA800685772 /* LPUpdateViewController.m in Sources */,
+				E9F87A5129F6855E002FD6C6 /* LPWiFiSecuritySelectViewController.m in Sources */,
 				DF690CBF29D45191002A8001 /* NewTuneInMusicDetailHead.m in Sources */,
 				E92EA6F224B89A0700E0D2FD /* LPProgressSlider.m in Sources */,
 				DF690CAA29D45190002A8001 /* NewTuneInNavigationBar.m in Sources */,
@@ -1146,6 +1165,7 @@
 				E98691D2249C5AA800685772 /* AlarmClockChooseRateViewController.m in Sources */,
 				DF690CBD29D45191002A8001 /* NewTuneInCollectionViewImageCell.m in Sources */,
 				E9138636249B9CDB008764AA /* AppDelegate.m in Sources */,
+				E9F87A4C29F68558002FD6C6 /* LPOtherWiFiViewController.m in Sources */,
 				DF690CA829D45190002A8001 /* NewTuneInLoginViewController.m in Sources */,
 				E98691D5249C5AA800685772 /* AlarmClockMainViewController.m in Sources */,
 				E9869234249C621B00685772 /* MJRefreshBaseView.m in Sources */,

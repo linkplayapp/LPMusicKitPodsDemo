@@ -34,11 +34,19 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"Device List";
     self.deviceKVOArray = [NSMutableArray array];
+    
+    /**
+     SDK init code, please use singleton design pattern management， so that during the App life cycle, you can always monitor the device changes, trigger onLPDeviceOnline, onLPDeviceOffline and other LPDeviceManagerObserver delegate methods, during the App life cycle, the SDK will always scan the surrounding devices
+     */
+    
+    // !!!: After iOS 14, the main networking-multicast permission is added, com.apple.developer.networking.multicast
+    
     [[LPDeviceManager sharedInstance] debugSwitch:YES];
     [[LPDeviceManager sharedInstance] addObserver:self];
     [[LPDeviceManager sharedInstance] start:@""];
-
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealWithDeviceInfoChange:) name:LPDeviceInfoChangeNotification object:nil];
+    
+    
     // KVO Notification
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateDeviceInfoByKey:) name:@"updateDeviceInfoByKey" object:nil];
     [self addFooterView];
